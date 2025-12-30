@@ -2,12 +2,34 @@
 <html lang="en">
 
 <head>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2474768816312806');
+    fbq('track', 'PageView');
+    fbq('track', 'SubmitLead');
+    fbq('track', 'Lead');
+    fbq('track', 'Purchase', {
+      value: 1999.00,
+      currency: 'INR'
+    });
+  </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=2474768816312806&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thank You | Herbal Diab Care</title>
+  <title>Thank You | Metrex Neuro-Shakti</title>
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -21,222 +43,174 @@
 
   <style>
     /* Color Themes */
-            /* Diabetic Care Purple & Emerald Healthcare Theme */
         :root,
-        [data-theme="diabeticcare"] {
-            /* Primary Deep Purple - Healthcare Authority */
-            --brand-primary: #6B46C1;
-            --brand-secondary: #8B5CF6;
+        [data-theme="JeeraPapad"] {
+            /* Primary Colors - Spice Red for Headers/Premium */
+            --brand-primary: #C62828;
+            --brand-secondary: #D32F2F;
 
-            /* Emerald Green - Healing & Wellness */
-            --brand-gold: #10B981;
-            --brand-gold-light: #D1FAE5;
-            --brand-gold-dark: #059669;
+            /* Turmeric Yellow - Packet Background */
+            --brand-gold: #F2B705;
+            --brand-gold-light: #FFF3E0;
+            --brand-gold-dark: #E65100;
 
             /* Supporting colors */
-            --brand-light: #F3E8FF;
-            --brand-muted: #C4B5FD;
-            --brand-accent: #4C1D95;
+            --brand-light: #FFF3E0;
+            --brand-muted: #FFCC02;
+            --brand-accent: #3E2723;
 
-            /* Background gradients - Premium healthcare */
-            --support-bg: #FAFAFA;
-            --support-bg-dark: #F3E8FF;
+            /* Food specific colors */
+            --success-color: #2E7D32;
 
-            /* Text colors - Professional medical */
-            --text-dark: #4C1D95;
-            --text-light: #6B46C1;
-            --text-gold: #059669;
-
-            /* Healthcare specific colors */
-            --success-color: #10B981;
-            --warning-color: #F59E0B;
-            --danger-color: #EF4444;
-
-            /* Diabetic Care specific colors */
-            --stone-purple: #7C3AED;     /* Primary accent */
-            --stone-emerald: #10B981;    /* Healing green */
-            --stone-indigo: #6366F1;     /* Secondary accent */
-            --stone-teal: #14B8A6;       /* Supporting color */
-
-            /* Interactive states */
-            --accent: var(--brand-primary);
-            --muted: var(--brand-muted);
+            /* Jeera Papad specific colors */
+            --stone-purple: #8B5A2B;
+            --stone-emerald: #2E7D32;
+            --stone-indigo: #C62828;
+            --stone-teal: #F2B705;
         }
 
-        /* Diabetic Care Purple & Emerald Utility Classes */
-        .text-stone-purple { color: var(--stone-purple); }
-        .text-stone-emerald { color: var(--stone-emerald); }
-        .text-stone-indigo { color: var(--stone-indigo); }
-        .text-stone-teal { color: var(--stone-teal); }
-        
-        .bg-stone-purple { background-color: var(--stone-purple); }
-        .bg-stone-emerald { background-color: var(--stone-emerald); }
-        .bg-stone-indigo { background-color: var(--stone-indigo); }
-        .bg-stone-teal { background-color: var(--stone-teal); }
 
-        /* Brand Color Utility Classes */
-        .bg-brand-primary {
-            background-color: var(--brand-primary);
-        }
+    /* Delivery Animation Styles */
+    @keyframes slideRight {
+      0% {
+        transform: translateX(0);
+        opacity: 1;
+      }
 
-        .bg-brand-secondary {
-            background-color: var(--brand-secondary);
-        }
+      50% {
+        transform: translateX(10px);
+        opacity: 0.7;
+      }
 
-        .bg-brand-light {
-            background-color: var(--brand-light);
-        }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
 
-        .bg-brand-gold {
-            background-color: var(--brand-gold);
-        }
+    @keyframes pulse {
 
-        .bg-brand-gold-light {
-            background-color: var(--brand-gold-light);
-        }
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
 
-        /* Text Colors */
-        .text-brand-primary {
-            color: var(--brand-primary);
-        }
+      50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+      }
+    }
 
-        .text-brand-secondary {
-            color: var(--brand-secondary);
-        }
+    @keyframes bounce {
 
-        .text-brand-light {
-            color: var(--brand-light);
-        }
+      0%,
+      100% {
+        transform: translateY(0);
+      }
 
-        .text-brand-accent {
-            color: var(--brand-accent);
-        }
+      50% {
+        transform: translateY(-5px);
+      }
+    }
 
-        .text-brand-gold {
-            color: var(--brand-gold);
-        }
+    @keyframes truckMove {
+      0% {
+        transform: translateX(-20px);
+      }
 
-        .text-brand-gold-dark {
-            color: var(--brand-gold-dark);
-        }
+      100% {
+        transform: translateX(0);
+      }
+    }
 
-        .text-brand-gold-light {
-            color: var(--brand-gold-light);
-        }
+    .arrow-animation {
+      animation: slideRight 2s ease-in-out infinite;
+    }
 
-        /* Border Colors */
-        .border-brand-primary {
-            border-color: var(--brand-primary);
-        }
+    .product-pulse {
+      animation: pulse 3s ease-in-out infinite;
+    }
 
-        .border-brand-gold {
-            border-color: var(--brand-gold);
-        }
+    .truck-bounce {
+      animation: bounce 2s ease-in-out infinite;
+    }
 
-        .border-brand-light {
-            border-color: var(--brand-light);
-        }
+    .truck-move {
+      animation: truckMove 1.5s ease-out;
+    }
 
-        .border-success-color {
-            border-color: var(--success-color);
-        }
+    .bg-brand-primary {
+      background-color: var(--brand-primary);
+    }
 
-        /* Success Color Utility Classes */
-        .text-success-color {
-            color: var(--success-color);
-        }
+    .bg-brand-secondary {
+      background-color: var(--brand-secondary);
+    }
 
-        .bg-success-color {
-            background-color: var(--success-color);
-        }
+    .bg-brand-light {
+      background-color: var(--brand-light);
+    }
 
-        /* Gradient Backgrounds - Purple & Emerald Healthcare */
-        .bg-gradient-ayurvani {
-            background: linear-gradient(135deg, var(--brand-primary) 0%, var(--stone-purple) 50%, var(--brand-gold) 100%);
-        }
+    .bg-brand-muted {
+      background-color: var(--brand-muted);
+    }
 
-        .bg-gradient-natural {
-            background: linear-gradient(135deg, var(--support-bg) 0%, var(--brand-light) 50%, var(--brand-muted) 100%);
-        }
+    .bg-brand-accent {
+      background-color: var(--brand-accent);
+    }
 
-        .bg-gradient-gold {
-            background: linear-gradient(135deg, var(--brand-gold-light) 0%, var(--brand-gold) 100%);
-        }
+    .text-brand-primary {
+      color: var(--brand-primary);
+    }
 
-        .bg-gradient-herbal {
-            background: linear-gradient(45deg, var(--stone-emerald) 0%, var(--stone-indigo) 100%);
-        }
+    .text-brand-secondary {
+      color: var(--brand-secondary);
+    }
 
-        /* Purple & Emerald Healthcare Shadows */
-        .shadow-ayurvani {
-            box-shadow: 0 8px 25px rgba(107, 70, 193, 0.15);
-        }
+    .text-brand-light {
+      color: var(--brand-light);
+    }
 
-        .shadow-gold {
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
-        }
+    .text-brand-muted {
+      color: var(--brand-muted);
+    }
 
-        .shadow-herbal {
-            box-shadow: 0 6px 20px rgba(124, 58, 237, 0.2);
-        }
+    .text-brand-accent {
+      color: var(--brand-accent);
+    }
 
-        /* Purple & Emerald Hover Effects */
-        .hover-lift:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 12px 30px rgba(107, 70, 193, 0.2);
-            transition: all 0.3s ease;
-        }
+    .border-brand-primary {
+      border-color: var(--brand-primary);
+    }
 
-        .hover-gold:hover {
-            background-color: var(--brand-gold-dark);
-            transform: scale(1.02);
-            transition: all 0.3s ease;
-        }
+    .border-brand-secondary {
+      border-color: var(--brand-secondary);
+    }
 
-        .hover-herbal:hover {
-            background: linear-gradient(45deg, var(--stone-purple) 0%, var(--stone-emerald) 100%);
-            transform: translateY(-1px);
-            transition: all 0.3s ease;
-        }
+    .border-brand-light {
+      border-color: var(--brand-light);
+    }
 
-        .font-eczar {
-            font-family: 'Eczar', serif;
-        }
+    .border-brand-muted {
+      border-color: var(--brand-muted);
+    }
 
-        .font-eczar {
-            font-family: 'eczar', sans-serif;
-        }
+    .border-brand-accent {
+      border-color: var(--brand-accent);
+    }
 
-        .font-yantra {
-            font-family: 'Yantramanav', sans-serif;
-        }
+    .font-arya {
+      font-family: 'Arya', sans-serif;
+    }
 
-        /* Container width control */
-        .main-container {
-            max-width: 450px;
-            margin: 0 auto;
-            margin-bottom: 60px;
-            width: 100%;
-            position: relative;
-        }
+    .font-inknut {
+      font-family: 'Inknut Antiqua', serif;
+    }
 
-        @media (min-width: 768px) {
-            .main-container {
-                max-width: 450px;
-            }
-        }
-
-        /* Mobile responsive */
-        @media (max-width: 450px) {
-            .main-container {
-                max-width: 100%;
-                margin-bottom: 20px;
-            }
-        }
-
-        * {
-            box-sizing: border-box;
-        }
+    .font-yantra {
+      font-family: 'Yantramanav', sans-serif;
+    }
   </style>
   <script>
     // Get form data and display customer name
@@ -272,7 +246,7 @@
 </head>
 
 <body class="min-h-screen flex items-center justify-center px-4 font-inknut"
-  style="background: linear-gradient(135deg, var(--brand-gold-light) 0%, var(--brand-gold) 25%, var(--brand-muted) 50%, var(--brand-secondary) 75%, var(--brand-primary) 100%);">
+  style="background: linear-gradient(135deg, #fef7ed 0%, #fed7aa 25%, #fdba74 50%, #fb923c 75%, #f97316 100%);">
 
   <section class="w-full max-h-auto max-w-md bg-white rounded-3xl shadow-2xl p-7 relative overflow-hidden"
     style="border: 3px solid var(--brand-muted);">
@@ -292,28 +266,28 @@
       </div>
 
       <!-- Heading -->
-      <h1 class="text-4xl leading-12 font-extrabold mb-2 font-inknut" style="color: var(--brand-primary);">
-        આભાર!<span id="customerName"></span> (Thank You!)
+      <h1 class="text-3xl leading-12 font-extrabold mb-2 font-inknut" style="color: var(--brand-primary);">
+        धन्यवाद!<span id="customerName"></span> (Thank You!)
       </h1>
 
-      <p class="text-xl font-semibold text-gray-800 font-arya">
-        તમારો ઓર્ડર સફળતાપૂર્વક પ્રાપ્ત થયો છે
+      <p class="text-lg font-semibold text-gray-800 font-arya">
+        आपका ऑर्डर सफलतापूर्वक प्राप्त हो गया है
       </p>
 
-      <p class="mt-3 text-lg text-gray-700 font-yantra">
-        અમારી ટીમ <b>WhatsApp / કૉલ</b> દ્વારા
-        <br>જલ્દીથી તમારો સંપર્ક કરશે.
+      <p class="mt-3 text-gray-700 font-yantra">
+        हमारी टीम <b>WhatsApp / कॉल</b> के माध्यम से
+        <br>जल्द ही आपसे संपर्क करेगी।
       </p>
 
       <!-- Product to Delivery Flow -->
       <div class="mb-8 mt-6">
 
         <!-- Inline Product → Truck Flow -->
-        <div class="flex items-center justify-center gap-6 mb-2">
+        <div class="flex items-center justify-center gap-6 mb-6">
 
           <!-- Product -->
           <div class="relative flex flex-col items-center">
-            <img src="./Image/Product.avif" alt="Herbal Diab Care Capsules" class="w-30 h-34 object-contain rounded-xl 
+            <img src="./Image/Product.png" alt="Stone Care Capsules" class="w-24 h-28 object-contain rounded-xl 
                drop-shadow-[0_10px_25px_rgba(0,0,0,0.25)]
                filter brightness-105" />
             <span class="absolute -top-2 -right-2 w-6 h-6 rounded-full
@@ -321,7 +295,7 @@
               style="background-color: var(--brand-primary);">
               1
             </span>
-            <p class="mt-2 text-xl font-bold text-gray-700">ઉત્પાદન</p>
+            <p class="mt-2 text-xs font-bold text-gray-700">Product</p>
           </div>
 
           <!-- Arrow -->
@@ -333,7 +307,7 @@
 
           <!-- Truck -->
           <div class="relative flex flex-col items-center">
-            <div class="w-30 h-26 rounded-xl flex items-center justify-center
+            <div class="w-22 h-18 rounded-xl flex items-center justify-center
                shadow-xl border-2" style="
           background: linear-gradient(135deg, var(--brand-secondary), var(--brand-gold));
           border-color: var(--brand-muted);
@@ -346,58 +320,58 @@
               style="background-color: var(--brand-primary);">
               2
             </span>
-            <p class="mt-2 text-xl font-bold text-gray-700">ડિલિવરી</p>
+            <p class="mt-2 text-xs font-bold text-gray-700">Delivery</p>
           </div>
 
         </div>
 
         <!-- Status -->
-        <div class="grid grid-cols-2 gap-4 text-xl font-yantra text-center" style="color: var(--brand-primary);">
+        <div class="grid grid-cols-2 gap-4 text-xs font-yantra text-center" style="color: var(--brand-primary);">
           <div>
-            <p class="font-bold">તમારો ઓર્ડર</p>
-            <p class="text-gray-600 text-lg">Order Placed</p>
+            <p class="font-bold">आपका ऑर्डर</p>
+            <p class="text-gray-600">Order Placed</p>
           </div>
           <div>
-            <p class="font-bold">ડિસ્પેચ</p>
-            <p class="text-gray-600 text-lg">In Transit</p>
+            <p class="font-bold">डिस्पैच</p>
+            <p class="text-gray-600">In Transit</p>
           </div>
         </div>
 
       </div>
 
       <!-- Info Box -->
-      <div class="mt-5 rounded-2xl p-4 text-base font-yantra"
+      <div class="mt-5 rounded-2xl p-4 text-sm font-yantra"
         style="background-color: var(--brand-light); border: 2px solid var(--brand-muted); color: var(--brand-primary);">
-        ⚠️ <b>મહત્વપૂર્ણ:</b>
-        જો તમે ખોટો મોબાઇલ નંબર કે સરનામું આપ્યું છે,
-        તો કૃપા કરીને તુરત રિપ્લાય કરીને સાચી વિગતો મોકલો.
+        ⚠️ <b>Important:</b>
+        अगर आपने गलत मोबाइल नंबर या एड्रेस डाला है,
+        तो कृपया तुरंत रिप्लाई करके सही डिटेल्स भेजें।
       </div>
 
       <!-- Next Steps -->
-      <div class="mt-6 text-left text-gray-800 text-base font-yantra">
-        <p class="font-bold mb-2 font-arya text-lg" style="color: var(--brand-primary);">
-          આગળ શું થશે?
+      <div class="mt-6 text-left text-gray-800 text-sm font-yantra">
+        <p class="font-bold mb-2 font-arya" style="color: var(--brand-primary);">
+          आगे क्या होगा?
         </p>
         <ul class="list-disc pl-5 space-y-1">
-          <li>24 કલાકની અંદર કૉલ કરીને ઓર્ડર confirm કરીશું</li>
-          <li>તમારા સરનામાની પુષ્ટિ કરીને ડિલિવરી ફિક્સ કરીશું</li>
-          <li>3-5 દિવસમાં Herbal Diab Care Capsules તમારા ઘરે પહોંચશે</li>
-          <li><b>COD</b> - ડિલિવરીના સમયે પૈસા આપો</li>
+          <li>24 घंटे के अंदर कॉल करके ऑर्डर confirm करेंगे</li>
+          <li>आपके पते की पुष्टि करके डिलीवरी तय करेंगे</li>
+          <li>3-5 दिनों में Stone Care Capsules आपके घर पहुंचेगा</li>
+          <li><b>COD</b> - डिलीवरी के समय पैसा दें</li>
         </ul>
       </div>
 
       <!-- CTA Button -->
       <div class="mt-8">
         <a href="#"
-          class="block w-full py-3 rounded-2xl text-white text-lg font-bold font-arya shadow-xl transition transform hover:scale-105"
+          class="block w-full py-3 rounded-2xl text-white text-base font-bold font-arya shadow-xl transition transform hover:scale-105"
           style="background: linear-gradient(135deg, var(--brand-secondary), var(--brand-primary));">
-          ટ્રેકિંગ વિગતો
+          Tracking details
         </a>
       </div>
 
       <!-- Footer Trust -->
-      <p class="mt-5 text-sm text-gray-500 font-yantra">
-        Herbal Diab Care Capsules © All Rights Reserved
+      <p class="mt-5 text-xs text-gray-500 font-yantra">
+        Stone Care Capsules © All Rights Reserved
       </p>
 
     </div>
