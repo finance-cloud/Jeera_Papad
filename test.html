@@ -1,187 +1,90 @@
-<!-- Why Our Jeera Papad Section -->
-<section class="bg-gradient-gold relative max-w-[450px] mx-auto p-4 mb-4"
-    style="border-radius: 22px; box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08); overflow: hidden;">
+<!-- HERO SECTION (Top Banner) -->
+<section class="relative w-full
+                xs:max-w-[450px] xs:mx-auto
+                md:max-w-full md:mx-0
+                lg:max-w-full lg:mx-auto"
+                style=" overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); background: linear-gradient(135deg, var(--brand-gold-light) 0%, var(--brand-gold) 100%);">
 
-    <!-- Background Motifs -->
-    <div class="absolute top-4 right-4 text-6xl opacity-10 text-brand-primary transform rotate-12">🌟</div>
-    <div class="absolute bottom-4 left-4 text-5xl opacity-10 text-brand-primary transform -rotate-12">✨</div>
-
-    <!-- Header -->
-    <div class="text-center mb-6 relative z-10">
-        <div
-            class="inline-flex items-center gap-3 bg-brand-primary text-white px-6 py-3 rounded-full font-black text-lg shadow-lg mb-4">
-            <span class="text-2xl">🏆</span>
-            <span>WHY OUR JEERA PAPAD?</span>
-        </div>
-        <h2 class="text-2xl font-bold text-brand-accent font-yantra">
-            क्यों चुनें हमारा जीरा पापड़
-        </h2>
-        <p class="text-brand-primary font-bold mt-2 text-xl">
-            हमारा जीरा पापड़ सिर्फ़ खाने का नहीं, business का product है:
-        </p>
-    </div>
-
-    <!-- Features Grid -->
-    <div class="space-y-4 relative z-10">
-
-        <!-- Feature 1: शुद्ध उड़द दाल -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind1.png" alt="शुद्ध उड़द दाल"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">शुद्ध उड़द दाल से बना</span>
+                <!-- Hero Content Wrapper -->
+                <div class="md:grid md:grid-cols-1 md:items-center lg:pb-6">
+                    <!-- Hero Image -->
+                    <div class="relative w-full h-auto order-first md:order-first">
+                        <img src="./Image/Hero2.png" alt="Premium Jeera Papad - B2B Supply"
+                            class="max-[450px]:w-full max-[450px]:h-auto w-full h-screen object-cover display-block rounded-none">
                     </div>
-                    <p class="text-sm text-gray-600 font-medium">Premium quality urad dal for authentic taste</p>
-                </div>
-            </div>
-        </div>
 
-        <!-- Feature 2: असली जीरे का स्वाद -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind2.png" alt="असली जीरे का स्वाद"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">असली जीरे का दमदार, natural स्वाद</span>
+                    <!-- Hero Content -->
+                    <div class="p-6 md:p-8 lg:p-16"
+                        style="background: linear-gradient(135deg, var(--brand-gold-light) 0%, #FFF8E7 100%); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);">
+
+                        <!-- Main Headline -->
+                        <h1 class="text-center md:text-left font-black text-brand-accent mb-4
+                            text-2xl md:text-3xl lg:text-5xl" style="line-height: 1.3;">
+                            <span class="text-brand-primary block md:inline" style="font-size: inherit;">हर पैकेट में
+                                शुद्ध
+                                स्वाद</span><br class="hidden md:inline" />
+                            <span class="text-brand-secondary block md:inline" style="font-size: inherit;">हर ऑर्डर में
+                                भरोसेमंद
+                                मुनाफ़ा</span>
+                        </h1>
+
+                        <!-- Sub Headlines -->
+                        <div class="text-center md:text-left mb-5 space-y-2">
+                            <p class="font-black text-brand-primary text-base md:text-lg lg:text-xl">
+                                प्रीमियम क्वालिटी जीरा पापड़ | B2B सप्लाई स्पेशलिस्ट
+                            </p>
+                            <p class="text-sm md:text-base text-brand-accent font-bold">
+                                Retailers & Wholesalers के लिए विशेष रूप से तैयार
+                            </p>
+                        </div>
+
+                        <!-- Key Benefits -->
+                        <div class="space-y-2 md:space-y-3 mb-5 bg-white rounded-xl p-4 md:p-5 border-3 border-brand-primary"
+                            style="box-shadow: 0 4px 12px rgba(198, 40, 40, 0.15);">
+                            <div class="flex items-center gap-3">
+                                <span class="text-success-color text-xl md:text-2xl font-black flex-shrink-0">✔</span>
+                                <span class="font-black text-brand-accent text-sm md:text-lg">High Margin Product</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-success-color text-xl md:text-2xl font-black flex-shrink-0">✔</span>
+                                <span class="font-black text-brand-accent text-sm md:text-lg">Consistent Quality (No
+                                    Batch
+                                    Issues)</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-success-color text-xl md:text-2xl font-black flex-shrink-0">✔</span>
+                                <span class="font-black text-brand-accent text-sm md:text-lg">Reliable Bulk
+                                    Supply</span>
+                            </div>
+                        </div>
+
+                        <!-- Target Audience -->
+                        <div class="bg-white rounded-xl p-4 md:p-5 mb-5 border-l-4 border-brand-primary"
+                            style="box-shadow: 0 4px 12px rgba(198, 40, 40, 0.1);">
+                            <p class="text-sm md:text-base font-black text-brand-primary mb-2">👉 उपयुक्त है:</p>
+                            <p class="text-base md:text-lg font-bold text-brand-accent leading-relaxed">
+                                Kirana Stores | Supermarkets | Restaurants | Hotels | Distributors
+                            </p>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <div class="flex justify-center md:justify-start">
+                            <button class="bg-gradient-ayurvani text-white font-black px-6 md:px-8 py-3 md:py-4 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 border-3 border-white flex items-center gap-3
+                                text-base md:text-lg" onclick="scrollToContent()">
+                                <span>Get Wholesale Rates</span>
+                            </button>
+                        </div>
+
                     </div>
-                    <p class="text-sm text-gray-600 font-medium">Authentic cumin flavor that customers love</p>
                 </div>
-            </div>
-        </div>
-
-        <!-- Feature 3: Extra Crisp -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind3.png" alt="Extra Crisp"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">Extra crisp — कम टूट-फूट</span>
-                    </div>
-                    <p class="text-sm text-gray-600 font-medium">Less breakage means better profits</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 4: Long Shelf Life -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind4.png" alt="Long Shelf Life"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">Long shelf life</span>
-                    </div>
-                    <p class="text-sm text-gray-600 font-medium">Extended freshness for better inventory management</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 5: Uniform Quality -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind5.png" alt="Uniform Quality"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">हर batch में uniform quality</span>
-                    </div>
-                    <p class="text-sm text-gray-600 font-medium">Consistent quality builds customer trust</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 6: Competitive Pricing -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind6.png" alt="Competitive Pricing"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">Bulk orders के लिए competitive
-                            pricing</span>
-                    </div>
-                    <p class="text-sm text-gray-600 font-medium">Better margins for wholesale purchases</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 7: Perfect for All Uses -->
-        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
-            onclick="handleFeatureClick(this)">
-            <div class="flex items-center gap-4">
-                <div
-                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
-                    <img src="./Image/Ind7.png" alt="Perfect for All Uses"
-                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
-                </div>
-                <div class="flex-1">
-                    <div class="flex items-center gap-2 mb-1">
-                        <span class="text-success-color text-xl">✔️</span>
-                        <span class="font-bold text-brand-accent text-base">Retail shelf और restaurant use दोनों के लिए
-                            perfect</span>
-                    </div>
-                    <p class="text-sm text-gray-600 font-medium">Versatile product for multiple business needs</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bottom Call-to-Action -->
-    <div class="bg-brand-primary text-white rounded-xl p-4 mt-6 text-center relative z-10 shadow-xl">
-        <div class="flex items-center justify-center gap-3 mb-2">
-            <span class="text-2xl">👉</span>
-            <span class="font-bold text-lg">Business Guarantee</span>
-        </div>
-        <p class="font-bold text-base text-brand-gold-light">
-            एक बार ग्राहक को पसंद आया, तो repeat demand तय।
-        </p>
-        <div class="mt-3">
-            <span
-                class="inline-flex items-center gap-2 bg-white text-brand-primary px-4 py-2 rounded-full font-black text-sm">
-                <span>🔄</span>
-                <span>100% Repeat Business</span>
-            </span>
-        </div>
-    </div>
 </section>
 
 <!-- about section of product -->
-<section
-    class="relative bg-white border-2 border-stone-emerald/20 rounded-3xl p-6 mx-4 my-6 shadow-2xl overflow-hidden">
+<section id="for-whom-section" class="relative bg-white border-2 lg:border-4 border-stone-emerald/20 rounded-2xl md:rounded-3xl lg:rounded-4xl
+                w-full xs:mx-4 xs:my-4 p-4
+                md:mx-6 md:my-6 md:p-6 
+                lg:mx-auto lg:my-8 lg:p-8 lg:max-w-full
+                shadow-2xl lg:shadow-2xl overflow-hidden">
     <!-- Background Visual Elements -->
     <div class="absolute inset-0 opacity-5 pointer-events-none">
         <!-- Traditional Cooking Elements -->
@@ -222,29 +125,28 @@
 
 
         <!-- Header Section -->
-        <div class="text-center mb-8">
+        <div class="text-center mb-6 md:mb-8">
             <!-- Company Name & About Header -->
-            <div class="bg-gradient-ayurvani mb-4 text-white px-8 py-4 rounded-3xl inline-block  shadow-lg">
-                <h1 class="text-lg font-black mb-1">Jay Vachhraj gruh udhyog</h1>
-                <h2 class="text-2xl font-black">ABOUT US</h2>
-                <p class="text-brand-gold-light font-bold text-lg">(हमारे बारे में)</p>
+            <div
+                class="bg-gradient-ayurvani mb-4 text-white px-6 md:px-8 py-3 md:py-4 rounded-2xl md:rounded-3xl inline-block shadow-lg">
+                <h1 class="text-base md:text-lg font-black mb-1">Jay Vachhraj gruh udhyog</h1>
+                <h2 class="text-xl md:text-3xl lg:text-4xl font-black">ABOUT US</h2>
+                <p class="text-brand-gold-light font-bold text-base md:text-lg">(हमारे बारे में)</p>
             </div>
             <!-- Company Image -->
             <div class="flex justify-center mb-4">
                 <img src="./Image/about.png" alt="Jay Vachhraj gruh udhyog - About Us"
-                    class="w-full h-auto object-contain rounded-3xl shadow-lg bg-gradient-to-br from-brand-gold-light to-white ">
+                    class="max-[450px]:w-full max-[450px]:h-auto w-[50rem] object-contain rounded-2xl md:rounded-3xl shadow-lg bg-gradient-to-br from-brand-gold-light to-white ">
             </div>
-
-
         </div>
 
         <!-- Our Story -->
         <div class="bg-gradient-demand-home p-6 rounded-3xl mb-6 shadow-lg">
-            <div class="flex items-center gap-3 mb-4">
+            <div class="flex items-center justify-center gap-3 mb-4">
                 <span class="text-3xl">🏛️</span>
                 <h3 class="text-xl font-black text-brand-primary">Our Tradition</h3>
             </div>
-            <p class="text-stone-purple font-bold text-lg leading-relaxed">
+            <p class="text-stone-purple font-bold text-lg leading-relaxed text-center">
                 हम पारंपरिक विधि से तैयार किया गया खालिस जीरा पापड़ बनाते हैं,
                 जो स्वाद, कुरकुरेपन और क्वालिटी में हर बार एक-सा रहता है।
             </p>
@@ -252,17 +154,17 @@
 
         <!-- Our B2B Focus -->
         <div class="bg-gradient-demand-restaurant p-6 rounded-3xl mb-6 shadow-lg">
-            <div class="flex items-center gap-3 mb-4">
+            <div class="flex items-center justify-center gap-3 mb-4">
                 <span class="text-3xl">🤝</span>
                 <h3 class="text-xl font-black text-brand-primary">Our Focus</h3>
             </div>
-            <p class="text-stone-emerald font-bold text-lg mb-4">
+            <p class="text-stone-emerald font-bold text-lg mb-4 text-center">
                 हमारा पूरा फोकस B2B सप्लाई पर है —
                 ताकि हमारे retail और wholesale partners को मिले:
             </p>
 
             <!-- Partner Benefits Grid -->
-            <div class="grid grid-cols-1 gap-3">
+            <div class="grid grid-cols-2 max-[450px]:grid-cols-1 gap-3">
                 <div class="flex items-center gap-3 p-3 bg-white rounded-xl shadow-sm">
                     <span class="text-2xl">✅</span>
                     <span class="font-bold text-stone-emerald">भरोसेमंद और stable product</span>
@@ -310,37 +212,235 @@
                         class="w-14 h-14 bg-stone-emerald rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
                         <span class="text-white font-bold text-lg">100%</span>
                     </div>
-                    <p class="text-xs font-bold text-stone-emerald">Quality Assured</p>
+                    <p class="text-lg font-bold text-stone-emerald">Quality Assured</p>
                 </div>
                 <div class="text-center">
                     <div
                         class="w-14 h-14 bg-brand-primary rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
                         <span class="text-white font-bold text-lg">B2B</span>
                     </div>
-                    <p class="text-xs font-bold text-brand-primary">Only Focus</p>
+                    <p class="text-lg font-bold text-brand-primary">Only Focus</p>
                 </div>
                 <div class="text-center">
                     <div
                         class="w-14 h-14 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
                         <span class="text-white font-bold text-lg">24/7</span>
                     </div>
-                    <p class="text-xs font-bold text-brand-gold-dark">Support</p>
+                    <p class="text-lg font-bold text-brand-gold-dark">Support</p>
                 </div>
                 <div class="text-center">
                     <div
                         class="w-14 h-14 bg-stone-purple rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
                         <span class="text-white font-bold text-lg">15+</span>
                     </div>
-                    <p class="text-xs font-bold text-stone-purple">Years Experience</p>
+                    <p class="text-lg font-bold text-stone-purple">Years Experience</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Why Our Jeera Papad Section -->
+<section id="why-section" class="bg-gradient-gold relative border-2 lg:border-4 border-brand-gold/30   
+                w-full xs:max-w-[450px] xs:mx-auto p-4
+                md:max-w-full md:mx-0 md:p-6
+                lg:mx-auto lg:p-8 lg:max-w-full
+                shadow-2xl lg:shadow-2xl overflow-hidden" style="overflow: hidden;">
+
+    <!-- Background Motifs -->
+    <div class="absolute top-4 right-4 text-6xl opacity-10 text-brand-primary transform rotate-12">🌟</div>
+    <div class="absolute bottom-4 left-4 text-5xl opacity-10 text-brand-primary transform -rotate-12">✨
+    </div>
+
+    <!-- Header -->
+    <div class="text-center mb-6 relative z-10">
+        <div
+            class="inline-flex items-center gap-3 bg-brand-primary text-white px-6 py-3 rounded-full font-black text-sm md:text-lg shadow-lg mb-4">
+            <span class="text-2xl">🏆</span>
+            <span>WHY OUR JEERA PAPAD?</span>
+        </div>
+        <h2 class="text-xl md:text-3xl lg:text-4xl font-bold text-brand-accent font-yantra mb-2">
+            क्यों चुनें हमारा जीरा पापड़
+        </h2>
+        <p class="text-brand-primary font-bold text-base md:text-lg lg:text-xl">
+            हमारा जीरा पापड़ सिर्फ़ खाने का नहीं, business का product है:
+        </p>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 relative z-10">
+
+        <!-- Feature 1: शुद्ध उड़द दाल -->
+        <div class="bg-white rounded-xl p-4 md:p-5 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-24 h-24 md:w-32 md:h-32 lg:w-28 lg:h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind1.png" alt="शुद्ध उड़द दाल"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1 ">
+                    <div class="flex items-center  gap-2 mb-1">
+                        <span class="text-success-color text-lg md:text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-sm md:text-base">शुद्ध उड़द दाल से
+                            बना</span>
+                    </div>
+                    <p class="text-xs md:text-sm text-gray-600 font-medium">Premium quality urad dal for
+                        authentic taste
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 2: असली जीरे का स्वाद -->
+        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind2.png" alt="असली जीरे का स्वाद"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span class="text-success-color text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-base">असली जीरे का दमदार, natural
+                            स्वाद</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Authentic cumin flavor that customers love
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 3: Extra Crisp -->
+        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind3.png" alt="Extra Crisp"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span class="text-success-color text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-base">Extra crisp — कम टूट-फूट</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Less breakage means better profits</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 4: Long Shelf Life -->
+        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind4.png" alt="Long Shelf Life"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span class="text-success-color text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-base">Long shelf life</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Extended freshness for better inventory
+                        management</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 5: Uniform Quality -->
+        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind5.png" alt="Uniform Quality"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span class="text-success-color text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-base">हर batch में uniform
+                            quality</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Consistent quality builds customer trust
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 6: Competitive Pricing -->
+        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind6.png" alt="Competitive Pricing"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span class="text-success-color text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-base">Bulk orders के लिए competitive
+                            pricing</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Better margins for wholesale purchases</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 7: Perfect for All Uses -->
+        <div class="bg-white rounded-xl p-4 border-2 border-brand-gold-light shadow-lg hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer active:scale-95"
+            onclick="handleFeatureClick(this)">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-28 h-28 rounded-xl overflow-hidden shadow-lg flex-shrink-0 border-2 border-brand-gold-light">
+                    <img src="./Image/Ind7.png" alt="Perfect for All Uses"
+                        class="w-full h-full object-cover bg-gradient-to-br from-white to-brand-light">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span class="text-success-color text-xl">✔️</span>
+                        <span class="font-bold text-brand-accent text-base">Retail shelf और restaurant use
+                            दोनों के लिए
+                            perfect</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Versatile product for multiple business
+                        needs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Call-to-Action -->
+    <div class="bg-brand-primary text-white rounded-xl p-4 mt-6 text-center relative z-10 shadow-xl">
+        <div class="flex items-center justify-center gap-3 mb-2">
+            <span class="text-2xl">👉</span>
+            <span class="font-bold text-lg">Business Guarantee</span>
+        </div>
+        <p class="font-bold text-base text-brand-gold-light">
+            एक बार ग्राहक को पसंद आया, तो repeat demand तय।
+        </p>
+        <div class="mt-3">
+            <span
+                class="inline-flex items-center gap-2 bg-white text-brand-primary px-4 py-2 rounded-full font-black text-sm">
+                <span>🔄</span>
+                <span>100% Repeat Business</span>
+            </span>
+        </div>
+    </div>
+</section>
+
 <!-- Categories section  -->
-<section
-    class="relative bg-white border-2 border-brand-primary/20 rounded-3xl p-6 mx-4 my-6 shadow-2xl overflow-hidden">
+<section id="product-section" class="relative bg-white border-2 lg:border-4 border-brand-primary/20 rounded-2xl md:rounded-3xl lg:rounded-4xl
+                w-full xs:mx-4 xs:my-4 xs:p-4
+                md:mx-6 md:my-6 md:p-6 p-4
+                lg:mx-auto lg:my-8 lg:p-8 lg:max-w-full
+                shadow-2xl lg:shadow-2xl overflow-hidden">
     <!-- Background Visual Elements -->
     <div class="absolute inset-0 opacity-5 pointer-events-none">
         <div class="absolute top-6 right-6 w-20 h-20 text-brand-gold">
@@ -375,7 +475,7 @@
         <!-- Product Specifications -->
         <div class="bg-gradient-demand-home p-6 rounded-2xl mb-8 shadow-lg">
             <h3 class="text-xl font-black text-brand-primary mb-4 text-center">Product Specifications</h3>
-            <div class="grid grid-cols-1 gap-3">
+            <div class="grid grid-cols-2 max-[450px]:grid-cols-1 gap-3">
                 <!-- Product Name -->
                 <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm">
                     <span class="font-bold text-stone-purple">Product Name:</span>
@@ -422,7 +522,7 @@
             <div class="grid grid-cols-1 gap-6">
                 <!-- 5 Kg Package -->
                 <div
-                    class="bg-gradient-demand-restaurant rounded-3xl border-2 border-stone-emerald shadow-xl hover:shadow-2xl transition-all hover:scale-105 overflow-hidden">
+                    class="bg-gradient-demand-restaurant rounded-3xl border-2 border-stone-emerald shadow-xl hover:shadow-2xl transition-all grid grid-cols-2 max-[450px]:grid-cols-1 gap-6 hover:scale-105 overflow-hidden">
                     <!-- Image Section -->
                     <div class="w-full bg-white p-4">
                         <img src="./Image/5.png" alt="5 Kg Pack"
@@ -432,7 +532,8 @@
                     <div class="p-6">
                         <div class="flex items-center gap-3 mb-3">
                             <span class="text-3xl">📦</span>
-                            <h4 class="text-2xl font-black text-brand-primary">5 Kg Pack</h4>
+                            <h4 class="text-2xl font-black text-brand-primary"> 1/2 kg , 1 kg , 2kg , 5 Kg
+                                Pack</h4>
                         </div>
                         <p class="text-stone-emerald font-bold text-lg mb-4">Perfect for small retailers</p>
                         <div class="flex items-center gap-3 flex-wrap">
@@ -448,7 +549,7 @@
 
                 <!-- 10 Kg Package -->
                 <div
-                    class="bg-gradient-demand-events rounded-3xl border-2 border-brand-primary shadow-xl hover:shadow-2xl transition-all hover:scale-105 overflow-hidden">
+                    class="bg-gradient-demand-events rounded-3xl border-2 border-brand-primary shadow-xl hover:shadow-2xl transition-all grid grid-cols-2 max-[450px]:grid-cols-1 hover:scale-105 overflow-hidden">
                     <!-- Image Section -->
                     <div class="w-full bg-white p-4">
                         <img src="./Image/10.png" alt="10 Kg Pack"
@@ -474,7 +575,7 @@
 
                 <!-- Custom Bulk Package -->
                 <div
-                    class="bg-gradient-demand-weather rounded-3xl border-2 border-brand-gold shadow-xl hover:shadow-2xl transition-all hover:scale-105 overflow-hidden">
+                    class="bg-gradient-demand-weather rounded-3xl border-2 border-brand-gold shadow-xl hover:shadow-2xl transition-all grid grid-cols-2 max-[450px]:grid-cols-1 hover:scale-105 overflow-hidden">
                     <!-- Image Section -->
                     <div class="w-full bg-white p-4">
                         <img src="./Image/bluk.png" alt="Bulk Pack"
@@ -502,25 +603,25 @@
         <!-- Key Benefits -->
         <div class="bg-gradient-demand-insight p-6 rounded-2xl text-white text-center shadow-lg">
             <div class="flex items-center justify-center gap-3 mb-3">
-                <span class="text-3xl animate-pulse">✨</span>
-                <h3 class="text-xl font-black">Why Choose Our Jeera Papad?</h3>
+                <!-- <span class="text-3xl ">✨</span> -->
+                <h3 class="text-xl text-center font-black">Why Choose Our Jeera Papad?</h3>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-4">
-                <div class="flex items-center gap-2">
+                <div class="flex flex-col items-center justify-center gap-2">
                     <span class="text-2xl">🏆</span>
-                    <span class="font-bold text-sm">Premium Quality</span>
+                    <span class="font-bold text-center text-sm">Premium Quality</span>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex flex-col items-center justify-center gap-2">
                     <span class="text-2xl">🌿</span>
-                    <span class="font-bold text-sm">Natural Ingredients</span>
+                    <span class="font-bold text-center text-sm">Natural Ingredients</span>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex flex-col items-center justify-center gap-2">
                     <span class="text-2xl">📦</span>
-                    <span class="font-bold text-sm">Multiple Packing</span>
+                    <span class="font-bold text-center text-sm">Multiple Packing</span>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex flex-col items-center justify-center gap-2">
                     <span class="text-2xl">⚡</span>
-                    <span class="font-bold text-sm">Long Shelf Life</span>
+                    <span class="font-bold text-center text-sm">Long Shelf Life</span>
                 </div>
             </div>
         </div>
@@ -528,8 +629,11 @@
 </section>
 
 <!-- Demand section  -->
-<section
-    class="relative bg-white border-2 border-stone-emerald/20 rounded-3xl p-6 mx-4 my-6 shadow-2xl overflow-hidden">
+<section id="demand-section" class="relative bg-white border-2 lg:border-4 border-stone-emerald/20 rounded-2xl md:rounded-3xl lg:rounded-4xl
+                w-full p-4 xs:mx-4 xs:my-4 xs:p-4
+                md:mx-6 md:my-6 md:p-6
+                lg:mx-auto lg:my-8 lg:p-8 lg:max-w-full
+                shadow-2xl lg:shadow-2xl overflow-hidden">
     <!-- Background Visual Elements -->
     <div class="absolute inset-0 opacity-5 pointer-events-none">
         <div class="absolute top-4 left-4 w-16 h-16 text-stone-emerald">
@@ -563,36 +667,39 @@
             <!-- Product Image -->
             <!-- Main Heading -->
             <div class="bg-brand-primary mb-4 bg-clip-text text-transparent">
-                <h2 class="text-2xl font-black text-center mb-2">CONSISTENT DEMAND PRODUCT</h2>
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2">CONSISTENT DEMAND PRODUCT</h2>
                 <div class="flex items-center justify-center gap-2 mb-4">
-                    <span class="bg-stone-emerald text-white px-4 py-1 rounded-full text-sm font-bold">Fast Moving
+                    <span class="bg-stone-emerald text-white px-4 py-1 rounded-full text-sm font-bold">Fast
+                        Moving
                         Item</span>
-                    <span class="text-2xl animate-bounce">📈</span>
+                    <span class="text-2xl md:text-3xl lg:text-4xl animate-bounce">📈</span>
                 </div>
             </div>
-            <img src="./Image/demand.png" alt="Market Demand for Jeera Papad"
-                class="w-full h-auto object-cover rounded-2xl shadow-lg  border-brand-gold/30">
 
+            <img src="./Image/demand.png" alt="Market Demand for Jeera Papad"
+                class="max-[450px]:w-full max-[450px]:h-auto w-[50rem] object-cover rounded-2xl shadow-lg border-brand-gold/30 mx-auto block">
 
 
             <!-- Subtitle -->
-            <p class="text-stone-purple mt-4 font-bold text-lg mb-6">
+            <p class="text-stone-purple mt-4 font-bold text-lg md:text-xl lg:text-2xl mb-6">
                 जीरा पापड़ - एक ऐसा product है जो हमेशा डिमांड में रहता है
             </p>
         </div>
 
         <!-- Demand Points Grid -->
-        <div class="grid grid-cols-1 gap-4 mb-6">
+        <div class="grid grid-cols-2 max-[450px]:grid-cols-1 gap-4 mb-6">
             <!-- Daily Home Consumption -->
             <div
                 class="bg-gradient-demand-home p-4 rounded-2xl border-l-4 border-stone-emerald shadow-md hover:shadow-lg transition-shadow">
                 <div class="flex items-center gap-4">
 
                     <div class="flex-1">
-                        <h3 class="font-bold text-stone-purple text-lg">हर घर में रोज़मर्रा उपयोग</h3>
-                        <p class="text-stone-emerald font-semibold">Daily home consumption ensures steady sales</p>
+                        <h3 class="font-bold text-stone-purple text-lg md:text-xl lg:text-2xl">हर घर में रोज़मर्रा उपयोग
+                        </h3>
+                        <p class="text-stone-emerald font-semibold md:text-lg">Daily home consumption ensures steady
+                            sales</p>
                     </div>
-                    <div class="text-2xl">🏠</div>
+                    <div class="text-2xl md:text-3xl lg:text-4xl">🏠</div>
                 </div>
             </div>
 
@@ -602,8 +709,11 @@
                 <div class="flex items-center gap-4">
 
                     <div class="flex-1">
-                        <h3 class="font-bold text-brand-primary text-lg">Restaurants & Hotels में Regular</h3>
-                        <p class="text-stone-purple font-semibold">Commercial establishments guarantee bulk orders</p>
+                        <h3 class="font-bold text-brand-primary text-lg md:text-xl lg:text-2xl">Restaurants & Hotels में
+                            Regular
+                        </h3>
+                        <p class="text-stone-purple font-semibold">Commercial establishments guarantee bulk
+                            orders</p>
                     </div>
                     <div class="text-2xl">🍽️</div>
                 </div>
@@ -615,8 +725,10 @@
                 <div class="flex items-center gap-4">
 
                     <div class="flex-1">
-                        <h3 class="font-bold text-stone-purple text-lg">शादी & Functions में Demand</h3>
-                        <p class="text-stone-emerald font-semibold">Special occasions drive large volume sales</p>
+                        <h3 class="font-bold text-stone-purple text-lg md:text-xl lg:text-2xl">शादी & Functions में
+                            Demand</h3>
+                        <p class="text-stone-emerald font-semibold md:text-lg">Special occasions drive large volume
+                            sales</p>
                     </div>
                     <div class="text-2xl">🎉</div>
                 </div>
@@ -628,8 +740,8 @@
                 <div class="flex items-center gap-4">
 
                     <div class="flex-1">
-                        <h3 class="font-bold text-brand-gold-dark text-lg">मौसम से अप्रभावित</h3>
-                        <p class="text-stone-purple font-semibold">Year-round sales stability</p>
+                        <h3 class="font-bold text-brand-gold-dark text-lg md:text-xl lg:text-2xl">मौसम से अप्रभावित</h3>
+                        <p class="text-stone-purple font-semibold md:text-lg">Year-round sales stability</p>
                     </div>
                     <div class="text-2xl">☀️</div>
                 </div>
@@ -639,16 +751,16 @@
         <!-- Key Insight Section -->
         <div class="bg-gradient-demand-insight p-6 rounded-2xl text-white text-center shadow-lg">
             <div class="flex items-center justify-center gap-3 mb-3">
-                <span class="text-3xl animate-pulse">👉</span>
-                <h3 class="text-xl font-black">मुख्य बात</h3>
+                <!-- <span class="text-3xl animate-pulse">👉</span> -->
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-black">मुख्य बात Shelf पर पड़ा नहीं रहता — Rotate होता
+                    रहता है </h3>
             </div>
-            <p class="text-lg font-bold mb-2">
-                Shelf पर पड़ा नहीं रहता — Rotate होता रहता है
-            </p>
+
             <div class="flex items-center justify-center gap-2 mt-4">
                 <span class="bg-brand-gold text-brand-primary px-4 py-2 rounded-full font-bold text-sm">Fast
                     Moving</span>
-                <span class="bg-white text-brand-primary px-4 py-2 rounded-full font-bold text-sm">High Turnover</span>
+                <span class="bg-white text-brand-primary px-4 py-2 rounded-full font-bold text-sm">High
+                    Turnover</span>
             </div>
         </div>
 
@@ -656,55 +768,52 @@
         <div class="mt-6 grid grid-cols-3 gap-4">
             <div class="text-center">
                 <div
-                    class="w-12 h-12 bg-stone-emerald rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
-                    <span class="text-white font-bold text-lg">365</span>
+                    class="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 bg-stone-emerald rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
+                    <span class="text-white font-bold text-lg md:text-2xl lg:text-3xl">365</span>
                 </div>
-                <p class="text-xs font-bold text-stone-emerald">Days Demand</p>
+                <p class="text-xs md:text-sm lg:text-base font-bold text-stone-emerald">Days Demand</p>
             </div>
             <div class="text-center">
                 <div
-                    class="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
-                    <span class="text-white font-bold text-lg">0%</span>
+                    class="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 bg-brand-primary rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
+                    <span class="text-white font-bold text-lg md:text-2xl lg:text-3xl">0%</span>
                 </div>
-                <p class="text-xs font-bold text-brand-primary">Wastage Risk</p>
+                <p class="text-xs md:text-sm lg:text-base font-bold text-brand-primary">Wastage Risk</p>
             </div>
             <div class="text-center">
                 <div
-                    class="w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
-                    <span class="text-white font-bold text-lg">∞</span>
+                    class="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-2 shadow-lg">
+                    <span class="text-white font-bold text-lg md:text-2xl lg:text-3xl">∞</span>
                 </div>
-                <p class="text-xs font-bold text-brand-gold-dark">Profit Potential</p>
+                <p class="text-xs md:text-sm lg:text-base font-bold text-brand-gold-dark">Profit Potential</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Quality assurance -->
-<section class="relative p-4 mb-6 overflow-hidden">
-    <!-- Background Elements -->
-    <div class="absolute inset-0 opacity-5">
-        <div class="absolute top-10 left-4 text-5xl transform -rotate-12">🔍</div>
-        <div class="absolute top-20 right-6 text-4xl transform rotate-15">✅</div>
-        <div class="absolute bottom-20 left-6 text-4xl transform rotate-12">⚖️</div>
-        <div class="absolute bottom-12 right-8 text-3xl transform -rotate-15">🎯</div>
-        <div class="absolute top-32 left-1/2 transform -translate-x-1/2 text-3xl">👨‍🔬</div>
-        <div class="absolute top-36 right-4 text-2xl transform rotate-25">📋</div>
-    </div>
+<section id="quality-section" class="relative
+                w-full xs:p-4 xs:my-4
+                md:p-6  lg:max-w-full lg:mx-auto
+                overflow-hidden">
 
     <!-- Main Content Container -->
-    <div
-        class="relative z-10 bg-white text-center bg-opacity-95  backdrop-blur-sm rounded-3xl p-6 border-3 border-brand-gold shadow-2xl">
+    <div class="relative z-10 bg-white text-center bg-opacity-95 backdrop-blur-sm rounded-2xl md:rounded-3xl lg:rounded-4xl
+                    xs:p-6 md:p-8 lg:p-10
+                    border-3 lg:border-4 border-brand-gold shadow-2xl lg:shadow-2xl
+                    xs:mx-4 md:mx-6 lg:mx-auto lg:max-w-full">
 
         <div
             class="inline-flex items-center gap-3 text-center bg-gradient-ayurvani px-6 py-3 rounded-full mb-4 shadow-lg">
             <span class="text-2xl animate-bounce">🛡️</span>
-            <h2 class="text-xl font-bold text-white font-eczar">Quality कैसे सुनिश्चित करते हैं</h2>
+            <h2 class="text-base md:text-xl font-bold text-white font-eczar">Quality कैसे सुनिश्चित करते हैं
+            </h2>
         </div>
 
         <!-- Trust Image -->
-        <div class="text-center mb-6">
+        <div class="text-center flex justify-center mb-6">
             <img src="./Image/trust.png" alt="Quality Trust Assurance"
-                class="w-full h-auto object-cover product-hero-image">
+                class="max-[450px]:w-full max-[450px]:h-auto w-[50rem] object-cover product-hero-image">
 
         </div>
 
@@ -721,19 +830,24 @@
         </div>
 
         <!-- Quality Process Grid -->
-        <div class="grid grid-cols-1 gap-4 mb-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6 mb-6 auto-rows-fr">
 
             <!-- Raw Material Quality Checking -->
             <div
-                class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                <div class="flex items-center gap-4 h-full">
+                    <div
+                        class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                         <img src="https://cdn-icons-png.flaticon.com/512/10021/10021404.png" alt="Quality Checking"
                             class="w-14 h-14" style="filter: hue-rotate(200deg) saturate(120%);">
                     </div>
                     <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">कच्चे माल की manual quality checking</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">🔍 हर ingredient को hand-pick और verify
+                        <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">कच्चे माल
+                            की manual quality
+                            checking</h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">🔍 हर
+                            ingredient को hand-pick
+                            और verify
                             करते हैं</p>
                     </div>
                 </div>
@@ -741,15 +855,20 @@
 
             <!-- Traditional Recipe + Controlled Process -->
             <div
-                class="bg-stone-purple rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                <div class="flex items-center gap-4 h-full">
+                    <div
+                        class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                         <img src="https://cdn-icons-png.flaticon.com/512/3565/3565418.png" alt="Traditional Recipe"
                             class="w-14 h-14" style="filter: hue-rotate(120deg) saturate(110%);">
                     </div>
                     <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">पारंपरिक recipe + controlled process</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">👨‍🍳 Traditional wisdom meets modern
+                        <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">पारंपरिक
+                            recipe + controlled
+                            process</h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">👨‍🍳
+                            Traditional wisdom meets
+                            modern
                             precision</p>
                     </div>
                 </div>
@@ -757,30 +876,40 @@
 
             <!-- Consistency Standards -->
             <div
-                class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                <div class="flex items-center gap-4 h-full">
+                    <div
+                        class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                         <img src="https://cdn-icons-png.flaticon.com/512/4785/4785959.png" alt="Consistency"
                             class="w-14 h-14" style="filter: hue-rotate(45deg) saturate(140%);">
                     </div>
                     <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">Taste, thickness और crispiness uniform</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">⚖️ हर piece में same quality guarantee</p>
+                        <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">Taste,
+                            thickness और crispiness
+                            uniform</h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">⚖️ हर piece
+                            में same quality
+                            guarantee</p>
                     </div>
                 </div>
             </div>
 
             <!-- Final Inspection -->
             <div
-                class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                <div class="flex items-center gap-4 h-full">
+                    <div
+                        class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                         <img src="https://cdn-icons-png.flaticon.com/512/925/925011.png" alt="Final Inspection"
                             class="w-14 h-14" style="filter: hue-rotate(25deg) saturate(120%);">
                     </div>
                     <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">Packing से पहले final inspection</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">📋 Last check ensures 100% quality approval
+                        <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">Packing से
+                            पहले final inspection
+                        </h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">📋 Last
+                            check ensures 100%
+                            quality approval
                         </p>
                     </div>
                 </div>
@@ -788,7 +917,7 @@
         </div>
 
         <!-- Quality Stats Section -->
-        <div class="bg-brand-primary rounded-2xl p-4 mb-6 border-2 border-white shadow-lg">
+        <div class="bg-stone-emerald rounded-2xl p-4 mb-6 border-2 border-white shadow-lg">
             <div class="grid grid-cols-2 gap-4 text-center">
                 <div class="rounded-xl p-3 backdrop-blur-sm">
                     <div class="text-2xl font-bold text-brand-gold font-eczar">0%</div>
@@ -802,7 +931,7 @@
         </div>
 
         <!-- Results Guarantee -->
-        <div class="bg-stone-emerald rounded-2xl p-4 mb-4 border-2 border-white shadow-lg">
+        <div class="bg-brand-primary rounded-2xl p-4 mb-4 border-2 border-white shadow-lg">
             <div class="flex items-center gap-3 text-center justify-center">
                 <div class="text-3xl">👉</div>
                 <div>
@@ -816,30 +945,33 @@
 
         <!-- Process Timeline -->
         <div class="bg-white rounded-2xl p-4 mb-4 border-2 border-brand-gold shadow-lg">
-            <h4 class="text-center text-brand-primary font-bold text-lg font-eczar mb-4">OUR QUALITY PROCESS</h4>
+            <h4 class="text-center text-brand-primary font-bold text-lg md:text-xl lg:text-2xl font-eczar mb-4">OUR
+                QUALITY PROCESS
+            </h4>
             <div class="flex items-center justify-between relative">
                 <!-- Timeline Line -->
-                <div class="absolute top-1/2 left-0 right-0 h-1 bg-brand-gold transform -translate-y-1/2"></div>
+                <div class="absolute top-1/2 left-0 right-0 h-1 bg-brand-gold transform -translate-y-1/2">
+                </div>
 
                 <!-- Process Steps -->
                 <div
-                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 flex items-center justify-center shadow-md">
-                    <span class="text-xl">🌾</span>
+                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center shadow-md">
+                    <span class="text-xl md:text-2xl lg:text-3xl">🌾</span>
                 </div>
                 <div
-                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 flex items-center justify-center shadow-md">
-                    <span class="text-xl">👨‍🍳</span>
+                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center shadow-md">
+                    <span class="text-xl md:text-2xl lg:text-3xl">👨‍🍳</span>
                 </div>
                 <div
-                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 flex items-center justify-center shadow-md">
-                    <span class="text-xl">⚖️</span>
+                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center shadow-md">
+                    <span class="text-xl md:text-2xl lg:text-3xl">⚖️</span>
                 </div>
                 <div
-                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 flex items-center justify-center shadow-md">
-                    <span class="text-xl">📦</span>
+                    class="relative bg-white border-3 border-brand-gold rounded-full w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center shadow-md">
+                    <span class="text-xl md:text-2xl lg:text-3xl">📦</span>
                 </div>
             </div>
-            <div class="flex justify-between text-xs text-brand-accent font-medium mt-2">
+            <div class="flex justify-between text-xs md:text-sm lg:text-base text-brand-accent font-medium mt-2">
                 <span>Raw Material</span>
                 <span>Process</span>
                 <span>Quality Check</span>
@@ -869,114 +1001,141 @@
 
     <!-- Floating Elements for Visual Appeal -->
     <div class="absolute top-4 right-4 w-8 h-8 bg-brand-gold rounded-full opacity-20 animate-pulse"></div>
-    <div class="absolute bottom-8 left-6 w-6 h-6 bg-stone-emerald rounded-full opacity-30 animate-bounce"></div>
+    <div class="absolute bottom-8 left-6 w-6 h-6 bg-stone-emerald rounded-full opacity-30 animate-bounce">
+    </div>
     <div class="absolute top-1/2 left-2 w-4 h-4 bg-stone-purple rounded-full opacity-25 animate-ping"></div>
-    <div class="absolute top-1/4 right-8 w-3 h-3 bg-brand-primary rounded-full opacity-30 animate-pulse"></div>
+    <div class="absolute top-1/4 right-8 w-3 h-3 bg-brand-primary rounded-full opacity-30 animate-pulse">
+    </div>
 </section>
 
 <!-- Packaging section  -->
-<section class="relative p-4 mb-6 overflow-hidden">
-    <!-- Background Elements -->
-    <div class="absolute inset-0 opacity-5">
-        <div class="absolute top-12 left-6 text-5xl transform -rotate-12">📦</div>
-        <div class="absolute top-24 right-8 text-4xl transform rotate-15">🛡️</div>
-        <div class="absolute bottom-16 left-4 text-4xl transform rotate-12">💪</div>
-        <div class="absolute bottom-8 right-6 text-3xl transform -rotate-15">✅</div>
-        <div class="absolute top-32 left-1/2 transform -translate-x-1/2 text-3xl">🚚</div>
-    </div>
+<section class="relative w-full
+                xs:p-4 xs:mx-4 md:p-6 md:mx-6
+                lg:p-8 lg:max-w-full lg:mx-auto
+                overflow-hidden">
 
     <!-- Main Content Container -->
-    <div
-        class="relative z-10 bg-white bg-opacity-95 backdrop-blur-sm rounded-3xl p-6 border-3 border-brand-gold shadow-2xl">
+    <div class="relative z-10 bg-white p-4 bg-opacity-95 backdrop-blur-sm rounded-3xl md:rounded-3xl lg:rounded-4xl
+                    xs:p-4 md:p-6 lg:p-8
+                    border-4 lg:border-4 border-brand-gold shadow-2xl lg:shadow-2xl">
+        <!-- Header Badge Section -->
+        <div class="text-center mb-4 md:mb-6 lg:mb-8 flex flex-col items-center gap-4">
+            <!-- Main Badge -->
+            <div
+                class="inline-flex items-center gap-2 md:gap-3 bg-brand-gold-light border-3 border-brand-gold px-4 md:px-6 py-2 md:py-3 rounded-full shadow-lg hover:shadow-xl transition-shadow">
+                <span class="text-xl md:text-2xl lg:text-3xl animate-bounce">💰</span>
+                <span class="text-xs md:text-sm lg:text-base font-bold text-brand-gold">LOW RISK • HIGH
+                    RETURN</span>
+                <span class="text-xl md:text-2xl lg:text-3xl animate-pulse">⭐</span>
+            </div>
+
+            <!-- Main Heading -->
+            <div>
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-black font-eczar text-brand-primary mb-2">
+                    PRODUCT जो Retailers को पसंद है
+                </h2>
+                <div class="h-1 w-24 md:w-32 bg-gradient-ayurvani rounded-full mx-auto"></div>
+            </div>
+
+            <!-- Subtitle -->
+            <p class="text-sm md:text-base lg:text-lg text-brand-accent font-medium max-w-2xl">
+                कम नुकसान, ज़्यादा मुनाफा – बिज़नेस के लिए सबसे सुरक्षित चुनाव
+            </p>
+        </div>
 
         <!-- Product Image -->
-        <div class="text-center mb-6">
+        <div class="text-center mb-6 md:mb-8">
             <img src="./Image/Packing.png" alt="Jeera Papad Packaging"
-                class="w-full h-auto object-cover product-hero-image">
+                class="w-full h-auto object-cover product-hero-image rounded-xl md:rounded-2xl max-w-3xl mx-auto">
         </div>
 
         <!-- LOW RISK - HIGH RETURN Section -->
-        <div class="mb-8">
-            <div class="text-center mb-6">
-                <div class="inline-flex items-center gap-3 bg-brand-secondary px-6 py-3 rounded-full mb-4 shadow-lg">
-                    <h2 class="text-xl font-bold text-white font-eczar">LOW RISK – HIGH RETURN PRODUCT</h2>
-                </div>
+        <div class="mb-8 md:mb-10">
+            <div class="text-center mb-6 md:mb-8">
+
                 <p
-                    class="text-brand-light font-bold text-sm bg-stone-emerald bg-opacity-10 rounded-lg px-4 py-2 inline-block">
+                    class="text-sm md:text-base text-brand-light font-bold bg-stone-emerald bg-opacity-10 rounded-lg px-4 py-2 inline-block">
                     💰 Retailers के लिए यह product
                 </p>
             </div>
 
             <!-- Business Benefits Grid -->
-            <div class="grid grid-cols-1 gap-4 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8">
 
                 <!-- Low Breakage -->
                 <div
-                    class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                    class="bg-stone-emerald rounded-xl md:rounded-2xl p-4 md:p-5 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
                     <div class="flex items-center gap-4">
-                        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                        <div
+                            class="w-16 md:w-20 h-16 md:h-20 bg-white rounded-full flex items-center justify-center shadow-md">
                             <img src="https://cdn-icons-png.flaticon.com/512/13217/13217962.png" alt="Low Breakage"
-                                class="w-14 h-14" style="filter: hue-rotate(200deg) saturate(120%);">
+                                class="w-10 md:w-14 h-10 md:h-14" style="filter: hue-rotate(200deg) saturate(120%);">
                         </div>
                         <div class="flex-1">
-                            <h4 class="text-white font-bold text-lg font-eczar">कम breakage → कम नुकसान</h4>
-                            <p class="text-brand-gold-light text-sm font-medium">💪 Durable product with minimal damage
-                                risk</p>
+                            <h4 class="text-white font-bold text-base md:text-lg font-eczar">कम breakage →
+                                कम नुकसान
+                            </h4>
+                            <p class="text-brand-gold-light text-xs md:text-sm font-medium">💪 Durable
+                                product with
+                                minimal damage risk</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Long Shelf Life -->
                 <div
-                    class="bg-stone-purple rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                    class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
                     <div class="flex items-center gap-4">
                         <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
                             <img src="https://cdn-icons-png.flaticon.com/512/9123/9123416.png" alt="Long Shelf Life"
                                 class="w-14 h-14" style="filter: hue-rotate(120deg) saturate(110%);">
                         </div>
                         <div class="flex-1">
-                            <h4 class="text-white font-bold text-lg font-eczar">Long shelf life → expiry risk नहीं</h4>
-                            <p class="text-brand-gold-light text-sm font-medium">📅 Extended freshness with no expiry
-                                concerns</p>
+                            <h4 class="text-white font-bold text-lg font-eczar">Long shelf life → expiry
+                                risk नहीं</h4>
+                            <p class="text-brand-gold-light text-sm font-medium">📅 Extended freshness with
+                                no expiry concerns</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Two Column Grid for Remaining Benefits -->
-                <div class="grid grid-cols-1 max-[450px]:grid-cols-1 gap-4">
-                    <!-- Stable Pricing -->
-                    <div
-                        class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                        <div class="flex items-center gap-3">
-                            <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
-                                <img src="https://cdn-icons-png.flaticon.com/512/6046/6046202.png" alt="Stable Pricing"
-                                    class="w-12 h-12" style="filter: hue-rotate(45deg) saturate(140%);">
-                            </div>
-                            <div class="flex-1">
-                                <h4 class="text-white font-bold text-base font-eczar">Stable pricing → margin सुरक्षित
-                                </h4>
-                                <p class="text-brand-gold-light text-xs font-medium">📊 Predictable profits</p>
-                            </div>
+                <!-- Stable Pricing -->
+                <div
+                    class="bg-stone-emerald rounded-xl md:rounded-2xl p-4 md:p-5 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-12 md:w-16 h-12 md:h-16 bg-white rounded-full flex items-center justify-center shadow-md">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6046/6046202.png" alt="Stable Pricing"
+                                class="w-8 md:w-12 h-8 md:h-12" style="filter: hue-rotate(45deg) saturate(140%);">
                         </div>
-                    </div>
-
-                    <!-- No Special Storage -->
-                    <div
-                        class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                        <div class="flex items-center gap-3">
-                            <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2897/2897818.png"
-                                    alt="No Special Storage" class="w-12 h-12"
-                                    style="filter: hue-rotate(25deg) saturate(120%);">
-                            </div>
-                            <div class="flex-1">
-                                <h4 class="text-white font-bold text-base font-eczar">Special storage की ज़रूरत नहीं
-                                </h4>
-                                <p class="text-brand-gold-light text-xs font-medium">🏪 Simple storage requirements</p>
-                            </div>
+                        <div class="flex-1 ">
+                            <h4 class="text-white font-bold text-sm md:text-base font-eczar">Stable
+                                pricing → margin
+                                सुरक्षित</h4>
+                            <p class="text-brand-gold-light text-xs font-medium">📊 Predictable profits
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- No Special Storage -->
+                <div
+                    class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                    <div class="flex items-center gap-3">
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2897/2897818.png" alt="No Special Storage"
+                                class="w-12 h-12" style="filter: hue-rotate(25deg) saturate(120%);">
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-bold text-base font-eczar">Special storage की
+                                ज़रूरत नहीं
+                            </h4>
+                            <p class="text-brand-gold-light text-xs font-medium">🏪 Simple storage
+                                requirements</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Business Guarantee -->
@@ -994,7 +1153,7 @@
         </div>
 
         <!-- PACKAGING PROTECTION Section -->
-        <div class="mb-6">
+        <div class="mb-6 border-t-2 border-brand-gold pt-6">
             <div class="text-center mb-6">
                 <div class="inline-flex items-center gap-3 bg-gradient-ayurvani px-6 py-3 rounded-full mb-4 shadow-lg">
                     <h2 class="text-xl font-bold text-white font-eczar">PACKAGING THAT PROTECTS</h2>
@@ -1007,19 +1166,24 @@
             </div>
 
             <!-- Packaging Benefits Grid -->
-            <div class="grid grid-cols-1 gap-4 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-6 auto-rows-fr">
 
                 <!-- Strong Packing -->
                 <div
-                    class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                    <div class="flex items-center gap-4">
-                        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                    class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                    <div class="flex items-center gap-4 h-full">
+                        <div
+                            class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                             <img src="https://cdn-icons-png.flaticon.com/512/15459/15459331.png" alt="Strong Packaging"
                                 class="w-14 h-14" style="filter: hue-rotate(200deg) saturate(120%);">
                         </div>
                         <div class="flex-1">
-                            <h4 class="text-white font-bold text-lg font-eczar">Strong Inner & Outer Packing</h4>
-                            <p class="text-brand-gold-light text-sm font-medium">💪 Double layer protection for maximum
+                            <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">
+                                Strong Inner & Outer Packing
+                            </h4>
+                            <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">
+                                💪 Double layer protection
+                                for maximum
                                 safety</p>
                         </div>
                     </div>
@@ -1027,57 +1191,69 @@
 
                 <!-- Transport Safety -->
                 <div
-                    class="bg-stone-purple rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                    <div class="flex items-center gap-4">
-                        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md">
+                    class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                    <div class="flex items-center gap-4 h-full">
+                        <div
+                            class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                             <img src="https://cdn-icons-png.flaticon.com/512/2821/2821826.png" alt="Transport Safe"
                                 class="w-14 h-14" style="filter: hue-rotate(120deg) saturate(110%);">
                         </div>
                         <div class="flex-1">
-                            <h4 class="text-white font-bold text-lg font-eczar">Transport में कम टूट-फूट</h4>
-                            <p class="text-brand-gold-light text-sm font-medium">🚚 Shock-resistant packaging for safe
+                            <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">
+                                Transport में कम टूट-फूट
+                            </h4>
+                            <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">
+                                🚚 Shock-resistant
+                                packaging for safe
                                 delivery</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Two Column Grid for Remaining Benefits -->
-                <div class="grid grid-cols-1 max-[450px]:grid-cols-1 gap-4">
-                    <!-- Easy Stacking -->
-                    <div
-                        class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                        <div class="flex items-center gap-3">
-                            <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
-                                <img src="https://cdn-icons-png.flaticon.com/512/13565/13565366.png" alt="Easy Stack"
-                                    class="w-12 h-12" style="filter: hue-rotate(45deg) saturate(140%);">
-                            </div>
-                            <div class="flex-1">
-                                <h4 class="text-white font-bold text-base font-eczar">Stack करना आसान</h4>
-                                <p class="text-brand-gold-light text-xs font-medium">📚 Space-efficient storage design
-                                </p>
-                            </div>
+                <!-- Easy Stacking -->
+                <div
+                    class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                    <div class="flex items-center gap-3 h-full">
+                        <div
+                            class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
+                            <img src="https://cdn-icons-png.flaticon.com/512/13565/13565366.png" alt="Easy Stack"
+                                class="w-12 h-12" style="filter: hue-rotate(45deg) saturate(140%);">
                         </div>
-                    </div>
-
-                    <!-- Retail Friendly -->
-                    <div
-                        class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                        <div class="flex items-center gap-3">
-                            <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2083/2083080.png" alt="Retail Friendly"
-                                    class="w-12 h-12" style="filter: hue-rotate(25deg) saturate(120%);">
-                            </div>
-                            <div class="flex-1">
-                                <h4 class="text-white font-bold text-base font-eczar">Retail Handling Friendly</h4>
-                                <p class="text-brand-gold-light text-xs font-medium">🏪 Easy for store operations</p>
-                            </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">
+                                Stack करना आसान</h4>
+                            <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">
+                                📚 Space-efficient
+                                storage design
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Retail Friendly -->
+                <div
+                    class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                    <div class="flex items-center gap-3 h-full">
+                        <div
+                            class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2083/2083080.png" alt="Retail Friendly"
+                                class="w-12 h-12" style="filter: hue-rotate(25deg) saturate(120%);">
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">
+                                Retail Handling
+                                Friendly</h4>
+                            <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">
+                                🏪 Easy for store
+                                operations</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Packaging Guarantee -->
-            <div class="bg-brand-secondary rounded-2xl p-4 mb-4 border-2 border-white shadow-lg">
+            <div class="bg-stone-emerald rounded-2xl p-4 mb-4 border-2 border-white shadow-lg">
                 <div class="flex items-center gap-3 text-center justify-center">
                     <div class="text-3xl">👉</div>
                     <div>
@@ -1112,148 +1288,167 @@
 
     <!-- Floating Elements for Visual Appeal -->
     <div class="absolute top-4 right-4 w-8 h-8 bg-brand-gold rounded-full opacity-20 animate-pulse"></div>
-    <div class="absolute bottom-8 left-6 w-6 h-6 bg-stone-emerald rounded-full opacity-30 animate-bounce"></div>
+    <div class="absolute bottom-8 left-6 w-6 h-6 bg-stone-emerald rounded-full opacity-30 animate-bounce">
+    </div>
     <div class="absolute top-1/2 left-2 w-4 h-4 bg-stone-purple rounded-full opacity-25 animate-ping"></div>
 </section>
 
 <!-- FOR WHOM WE SUPPLY Section -->
-<section class="relative p-4 mb-6 overflow-hidden">
-    <!-- Background Elements -->
-    <div class="absolute inset-0 opacity-5">
-        <div class="absolute top-10 left-5 text-6xl">🏪</div>
-        <div class="absolute top-20 right-8 text-5xl transform rotate-12">🛒</div>
-        <div class="absolute bottom-15 left-8 text-4xl transform -rotate-12">🍽️</div>
-        <div class="absolute bottom-10 right-5 text-5xl">🚚</div>
-        <div class="absolute top-32 left-1/2 transform -translate-x-1/2 text-3xl">📦</div>
-    </div>
+<section class="relative
+                w-ful
+                lg:p-4 lg:max-w-full lg:mx-auto
+                overflow-hidden">
 
     <!-- Main Content Container -->
-    <div
-        class="relative z-10 bg-white bg-opacity-95 backdrop-blur-sm rounded-3xl p-6 border-3 border-brand-gold shadow-2xl">
+    <div class="relative z-10 bg-white bg-opacity-95 backdrop-blur-sm rounded-3xl md:rounded-3xl lg:rounded-4xl
+                  p-6 max-[450px]:p-4
+                    border-4 lg:border-4 border-brand-gold shadow-2xl lg:shadow-2xl">
 
         <!-- Header Section -->
-        <div class="text-center mb-6">
-            <div class="inline-flex items-center gap-3 bg-gradient-ayurvani px-6 py-3 rounded-full mb-4 shadow-lg">
-                <span class="text-2xl animate-bounce">🤝</span>
-                <h2 class="text-xl font-bold text-white font-eczar">हम किनको सप्लाई करते हैं</h2>
+        <div class="text-center mb-6 md:mb-10 lg:mb-8 flex flex-col items-center gap-4">
+            <!-- Badge -->
+            <div
+                class="inline-flex items-center gap-2 md:gap-3 bg-brand-gold-light border-3 border-brand-gold px-4 md:px-6 py-2 md:py-3 rounded-full shadow-lg hover:shadow-xl transition-shadow">
+                <span class="text-xl md:text-2xl lg:text-3xl animate-bounce">🤝</span>
+                <span class="text-xs md:text-sm lg:text-base font-bold text-brand-gold">OUR PARTNERS</span>
             </div>
-            <p
-                class="text-brand-light font-bold text-sm bg-stone-emerald bg-opacity-10 rounded-lg px-4 py-2 inline-block">
-                🔄 हम नियमित और bulk सप्लाई करते हैं
-            </p>
+
+            <!-- Main Heading -->
+            <div>
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-black font-eczar text-brand-primary mb-2">
+                    हम किनको सप्लाई करते हैं
+                </h2>
+                <div class="h-1 w-24 md:w-32 bg-gradient-ayurvani rounded-full mx-auto"></div>
+            </div>
         </div>
 
         <!-- Supply Categories Grid -->
-        <div class="grid grid-cols-1 gap-4 mb-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8 auto-rows-fr">
 
             <!-- Kirana & General Stores -->
             <div
-                class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                class="bg-stone-emerald rounded-xl md:rounded-2xl p-4 md:p-5 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
                 <div class="flex items-center gap-4">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <div
+                        class="w-12 md:w-16 h-12 md:h-16 bg-white rounded-full flex items-center justify-center shadow-md">
                         <img src="https://cdn-icons-png.flaticon.com/512/4634/4634649.png" alt="Kirana Store"
-                            class="w-10 h-10" style="filter: hue-rotate(25deg) saturate(120%);">
+                            class="w-8 md:w-10 h-8 md:h-10" style="filter: hue-rotate(25deg) saturate(120%);">
                     </div>
-                    <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">Kirana & General Stores</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">✔️ Local retailers & neighborhood stores
-                        </p>
+                    <div class="flex-1 ">
+                        <h4 class="text-white font-bold text-base max-[450px]:text-lg md:text-lg font-eczar">Kirana &
+                            General
+                            Stores</h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm md:text-sm font-medium">✔️ Local
+                            retailers &
+                            neighborhood stores</p>
                     </div>
                 </div>
             </div>
 
             <!-- Supermarkets & Retail Chains -->
             <div
-                class="bg-stone-purple rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
                 <div class="flex items-center gap-4">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
                         <img src="https://cdn-icons-png.flaticon.com/512/3514/3514407.png" alt="Supermarket"
                             class="w-10 h-10" style="filter: hue-rotate(120deg) saturate(110%);">
                     </div>
                     <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">Supermarkets & Retail Chains</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">✔️ Large format stores & chain outlets</p>
+                        <h4 class="text-white font-bold text-lg max-[450px]:text-xl font-eczar">Supermarkets & Retail
+                            Chains
+                        </h4>
+                        <p class="text-brand-gold-light text-sm max-[450px]:text-base font-medium">✔️ Large format
+                            stores & chain
+                            outlets</p>
                     </div>
                 </div>
             </div>
 
             <!-- Restaurants & Hotels -->
             <div
-                class="bg-brand-primary rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
+                class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
                 <div class="flex items-center gap-4">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
                         <img src="https://cdn-icons-png.flaticon.com/512/8503/8503966.png" alt="Restaurant"
                             class="w-10 h-10" style="filter: hue-rotate(15deg) saturate(130%);">
                     </div>
                     <div class="flex-1">
-                        <h4 class="text-white font-bold text-lg font-eczar">Restaurants & Hotels</h4>
-                        <p class="text-brand-gold-light text-sm font-medium">✔️ Dining establishments & hospitality
+                        <h4 class="text-white font-bold text-lg max-[450px]:text-xl font-eczar">Restaurants & Hotels
+                        </h4>
+                        <p class="text-brand-gold-light text-sm max-[450px]:text-base font-medium">✔️ Dining
+                            establishments &
+                            hospitality
                             sector</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Two Column Grid for Remaining Categories -->
-            <div class="grid grid-cols-1 max-[450px]:grid-cols-1 gap-4">
-                <!-- Wholesalers / Distributors -->
-                <div
-                    class="bg-stone-emerald rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                    <div class="flex items-center gap-3">
-                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md">
-                            <img src="https://cdn-icons-png.flaticon.com/512/10103/10103180.png" alt="Wholesaler"
-                                class="w-8 h-8" style="filter: hue-rotate(200deg) saturate(120%);">
-                        </div>
-                        <div class="flex-1">
-                            <h4 class="text-white font-bold text-base font-eczar">Wholesalers / Distributors</h4>
-                            <p class="text-brand-gold-light text-xs font-medium">✔️ Bulk trade partners</p>
-                        </div>
+
+            <!-- Wholesalers / Distributors -->
+            <div
+                class="bg-brand-primary rounded-xl md:rounded-2xl p-4 md:p-5 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                <div class="flex items-center gap-4">
+                    <div
+                        class="w-12 md:w-16 h-12 md:h-16 bg-white rounded-full flex items-center justify-center shadow-md">
+                        <img src="https://cdn-icons-png.flaticon.com/512/10103/10103180.png" alt="Wholesaler"
+                            class="w-8 md:w-10 h-8 md:h-10" style="filter: hue-rotate(200deg) saturate(120%);">
+                    </div>
+                    <div class="flex-1 ">
+                        <h4 class="text-white font-bold text-sm max-[450px]:text-lg md:text-base font-eczar">Wholesalers
+                            /
+                            Distributors</h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm font-medium">✔️ Bulk trade partners
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Cloud Kitchens & Caterers -->
-                <div
-                    class="bg-stone-purple rounded-2xl p-4 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg">
-                    <div class="flex items-center gap-3">
-                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md">
-                            <img src="https://cdn-icons-png.flaticon.com/512/1698/1698742.png" alt="Cloud Kitchen"
-                                class="w-8 h-8" style="filter: hue-rotate(45deg) saturate(140%);">
-                        </div>
-                        <div class="flex-1">
-                            <h4 class="text-white font-bold text-base font-eczar">Cloud Kitchens & Caterers</h4>
-                            <p class="text-brand-gold-light text-xs font-medium">✔️ Online delivery & events</p>
-                        </div>
+            <!-- Cloud Kitchens & Caterers -->
+            <div
+                class="bg-stone-emerald rounded-xl md:rounded-2xl p-4 md:p-5 border-2 border-brand-gold hover:scale-105 transition-all duration-300 shadow-lg h-full flex flex-col">
+                <div class="flex items-center gap-4">
+                    <div
+                        class="w-12 md:w-16 h-12 md:h-16 bg-white rounded-full flex items-center justify-center shadow-md">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1698/1698742.png" alt="Cloud Kitchen"
+                            class="w-8 md:w-10 h-8 md:h-10" style="filter: hue-rotate(45deg) saturate(140%);">
+                    </div>
+                    <div class="flex-1 ">
+                        <h4 class="text-white font-bold text-sm max-[450px]:text-lg md:text-base font-eczar">Cloud
+                            Kitchens &
+                            Caterers</h4>
+                        <p class="text-brand-gold-light text-xs max-[450px]:text-sm font-medium">✔️ Online delivery &
+                            events</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Important Notice -->
-        <div class="bg-red-50 border-2 border-red-300 rounded-2xl p-4 mb-4">
+        <div
+            class="bg-red-50 border-2 border-red-300 flex justify-center rounded-xl md:rounded-2xl p-4 md:p-5 mb-4 md:mb-6">
             <div class="flex items-center gap-3">
                 <div class="text-2xl">⚠️</div>
                 <div>
-                    <h4 class="text-red-700 font-bold font-eczar">Important Notice</h4>
-                    <p class="text-red-600 text-sm font-medium">
-                        Retail customers के लिए direct sale उपलब्ध नहीं है
-                    </p>
-                    <p class="text-red-500 text-xs mt-1">
-                        We only supply to businesses and trade partners
-                    </p>
+                    <h4 class="text-red-700 font-bold font-eczar text-sm md:text-base">Important Notice</h4>
+                    <p class="text-red-600 text-xs md:text-sm font-medium">Retail customers के लिए direct
+                        sale उपलब्ध
+                        नहीं है</p>
+                    <p class="text-red-500 text-xs mt-1">We only supply to businesses and trade partners</p>
                 </div>
             </div>
         </div>
 
         <!-- Call to Action -->
         <div class="text-center">
-            <div class="bg-gradient-ayurvani rounded-2xl p-4 border-2 border-brand-gold shadow-lg">
-                <p class="text-white font-bold text-lg font-eczar mb-2">
+            <div class="bg-gradient-ayurvani rounded-xl md:rounded-2xl p-4 md:p-5 border-2 border-brand-gold shadow-lg">
+                <p class="text-white font-bold text-base md:text-lg font-eczar mb-2">
                     🚀 Ready to Partner with Us?
                 </p>
-                <p class="text-white text-sm opacity-90 mb-3">
+                <p class="text-white text-xs md:text-sm opacity-90 mb-3">
                     Join thousands of satisfied business partners
                 </p>
                 <button onclick="scrollToContent()"
-                    class="bg-brand-gold hover:bg-brand-gold-dark text-stone-purple font-black px-8 py-3 rounded-xl text-base shadow-lg transform hover:scale-105 transition-all duration-300">
+                    class="bg-brand-gold hover:bg-brand-gold-dark text-stone-purple font-black px-6 md:px-8 py-2 md:py-3 rounded-lg md:rounded-xl text-sm md:text-base shadow-lg transform hover:scale-105 transition-all duration-300">
                     <div class="flex items-center justify-center gap-2">
                         <span>📋</span>
                         <span>Get Partnership Details</span>
@@ -1265,12 +1460,15 @@
 
     <!-- Floating Elements for Visual Appeal -->
     <div class="absolute top-4 right-4 w-8 h-8 bg-brand-gold rounded-full opacity-20 animate-pulse"></div>
-    <div class="absolute bottom-8 left-6 w-6 h-6 bg-stone-emerald rounded-full opacity-30 animate-bounce"></div>
+    <div class="absolute bottom-8 left-6 w-6 h-6 bg-stone-emerald rounded-full opacity-30 animate-bounce">
+    </div>
     <div class="absolute top-1/2 left-2 w-4 h-4 bg-stone-purple rounded-full opacity-25 animate-ping"></div>
 </section>
 
 <!-- 🏆 WHY RETAILERS & DISTRIBUTORS CHOOSE US Section -->
-<section class="relative bg-gradient-ayurvani text-white overflow-hidden">
+<section class="relative bg-gradient-ayurvani text-white
+                w-full  max-[450px]:p-4 lg:max-w-full lg:mx-auto
+                overflow-hidden">
 
     <!-- Background Visualization Elements -->
     <div class="absolute inset-0 opacity-15">
@@ -1284,41 +1482,42 @@
             style="animation-delay: 1.5s; animation-duration: 2.5s;">🤝</div>
 
         <!-- Process Flow Lines -->
-        <div class="absolute top-1/3 left-1/4 w-32 h-0.5 bg-brand-gold opacity-30 transform rotate-45"></div>
+        <div class="absolute top-1/3 left-1/4 w-32 h-0.5 bg-brand-gold opacity-30 transform rotate-45">
+        </div>
         <div class="absolute top-1/2 right-1/4 w-28 h-0.5 bg-white opacity-20 transform -rotate-45"></div>
         <div class="absolute bottom-1/3 left-1/3 w-24 h-0.5 bg-stone-emerald opacity-40"></div>
     </div>
 
-    <div class="relative p-6 max-w-md mx-auto">
+    <div class="relative lg:p-8 max-w-md md:max-w-3xl lg:max-w-full mx-auto">
 
         <!-- Hero Header -->
-        <div class="text-center mb-8 max-[450px]:mb-6">
+        <div class="text-center mb-6 md:mb-8">
             <!-- Trust Badge -->
             <div
-                class="inline-flex items-center gap-3 bg-stone-purple backdrop-blur-sm rounded-full px-6 py-3 mb-4 border-3 border-brand-gold shadow-xl">
-                <span class="text-2xl animate-spin" style="animation-duration: 4s;">🏆</span>
-                <span class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold">TRUSTED CHOICE</span>
-                <span class="text-2xl animate-bounce" style="animation-delay: 0.5s;">⭐</span>
+                class="inline-flex items-center gap-2 md:gap-3 bg-brand-gold-light backdrop-blur-sm rounded-full px-4 md:px-6 py-2 md:py-3 mb-4 border-3 border-brand-gold shadow-xl">
+                <span class="text-lg md:text-2xl animate-spin" style="animation-duration: 4s;">🏆</span>
+                <span class="text-lg md:text-lg font-bold font-eczar text-brand-gold">TRUSTED CHOICE</span>
+                <span class="text-lg md:text-2xl animate-bounce" style="animation-delay: 0.5s;">⭐</span>
             </div>
 
-            <h2 class="text-2xl max-[450px]:text-xl font-bold font-eczar text-white mb-3 leading-tight">
+            <h2 class="text-xl md:text-2xl lg:text-3xl font-bold font-eczar text-white mb-3 leading-tight">
                 Retailers & Distributors हमें क्यों चुनते हैं?
             </h2>
 
             <div
-                class="inline-flex items-center gap-2 bg-brand-gold px-4 py-2 rounded-full border-2 border-white shadow-lg">
+                class="inline-flex items-center gap-2 bg-brand-gold px-3 md:px-4 py-1 md:py-2 rounded-full border-2 border-white shadow-lg">
                 <span class="text-lg">💼</span>
-                <span class="text-sm max-[450px]:text-xs font-bold text-stone-purple">Business Partnership
+                <span class="text-xs md:text-sm font-bold text-stone-purple">Business Partnership
                     Focused</span>
             </div>
         </div>
 
         <!-- Value Propositions Grid -->
-        <div class="space-y-5 max-[450px]:space-y-4 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8">
 
             <!-- Value 1: Pricing -->
             <div
-                class="bg-stone-purple bg-opacity-95 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:scale-105 transition-all duration-500 group">
+                class="bg-brand-gold-light bg-opacity-95 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:scale-105 transition-all duration-500 group">
                 <div class="flex items-start gap-4">
                     <div
                         class="flex-shrink-0 w-14 h-14 bg-brand-gold rounded-full flex items-center justify-center border-2 border-white group-hover:scale-110 transition-transform duration-300">
@@ -1328,7 +1527,7 @@
                         <h3 class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold mb-2">
                             Competitive Wholesale Pricing
                         </h3>
-                        <p class="text-sm max-[450px]:text-xs text-white leading-relaxed font-medium">
+                        <p class="text-sm max-[450px]:text-xs text-brand-secondary leading-relaxed font-medium">
                             बेहतरीन rates • Higher profit margins • Market competitive prices
                         </p>
                         <div class="mt-3 flex items-center gap-2">
@@ -1369,7 +1568,7 @@
 
             <!-- Value 3: Packaging & Dispatch -->
             <div
-                class="bg-stone-purple bg-opacity-95 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:scale-105 transition-all duration-500 group">
+                class="bg-brand-gold-light bg-opacity-95 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:scale-105 transition-all duration-500 group">
                 <div class="flex items-start gap-4">
                     <div
                         class="flex-shrink-0 w-14 h-14 bg-brand-gold rounded-full flex items-center justify-center border-2 border-white group-hover:scale-110 transition-transform duration-300">
@@ -1379,7 +1578,7 @@
                         <h3 class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold mb-2">
                             Strong Packaging & Safe Dispatch
                         </h3>
-                        <p class="text-sm max-[450px]:text-xs text-white leading-relaxed font-medium">
+                        <p class="text-sm max-[450px]:text-xs text-brand-secondary leading-relaxed font-medium">
                             Damage-proof packing • On-time delivery • Professional handling
                         </p>
                         <div class="mt-3 flex items-center gap-2">
@@ -1415,32 +1614,6 @@
                 </div>
             </div>
 
-            <!-- Value 5: Long-term Approach -->
-            <div
-                class="bg-stone-purple bg-opacity-95 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:scale-105 transition-all duration-500 group">
-                <div class="flex items-start gap-4">
-                    <div
-                        class="flex-shrink-0 w-14 h-14 bg-brand-gold rounded-full flex items-center justify-center border-2 border-white group-hover:scale-110 transition-transform duration-300">
-                        <span class="text-2xl">🤝</span>
-                    </div>
-                    <div class="flex-1 pt-2">
-                        <h3 class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold mb-2">
-                            Long-term Business Approach
-                        </h3>
-                        <p class="text-sm max-[450px]:text-xs text-white leading-relaxed font-medium">
-                            Partnership mindset • Growth support • Market development help
-                        </p>
-                        <div class="mt-3 flex flex-wrap gap-2">
-                            <span
-                                class="text-xs bg-brand-gold text-stone-purple px-3 py-1 rounded-full font-bold border border-white">✓
-                                Growth Focus</span>
-                            <span
-                                class="text-xs bg-brand-gold text-stone-purple px-3 py-1 rounded-full font-bold border border-white">✓
-                                Support</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- Main Value Statement -->
@@ -1523,12 +1696,13 @@
 
             <!-- Trust Message -->
             <div
-                class="text-center bg-stone-purple bg-opacity-90 backdrop-blur-sm rounded-xl p-4 border-2 border-brand-gold shadow-lg">
+                class="text-center bg-brand-gold-light bg-opacity-90 backdrop-blur-sm rounded-xl p-4 border-2 border-brand-gold shadow-lg">
                 <div class="flex items-center justify-center gap-2 mb-2">
                     <span class="text-lg">📋</span>
-                    <span class="text-sm max-[450px]:text-xs font-bold text-brand-gold">EASY ORDER PROCESS</span>
+                    <span class="text-sm max-[450px]:text-xs font-bold text-brand-gold">EASY ORDER
+                        PROCESS</span>
                 </div>
-                <p class="text-xs max-[450px]:text-[10px] text-white leading-relaxed font-medium">
+                <p class="text-xs max-[450px]:text-[10px] text-brand-secondary leading-relaxed font-medium">
                     Simple form भरें • Quick delivery • Wholesale rates guaranteed
                 </p>
             </div>
@@ -1538,7 +1712,9 @@
 </section>
 
 <!-- 🌟 RETAILER SUCCESS JOURNEY Section -->
-<section class="relative bg-gradient-ayurvani text-white overflow-hidden">
+<section class="relative bg-gradient-ayurvani text-white
+                w-full p-8 max-[450px]:p-1 lg:max-w-full lg:mx-auto
+                overflow-hidden">
 
     <!-- Dynamic background elements -->
     <div class="absolute inset-0 opacity-10">
@@ -1553,114 +1729,118 @@
     </div>
 
     <!-- Progress Journey Container -->
-    <div class="relative p-6 max-w-md mx-auto">
+    <div class="relative max-[450px]:p-4  max-w-md md:max-w-3xl lg:max-w-full mx-auto">
 
         <!-- Hero Badge -->
-        <div class="text-center mb-8 max-[450px]:mb-6">
+        <div class="text-center mb-2 md:mb-4">
             <div
-                class="inline-flex items-center gap-3 bg-stone-purple backdrop-blur-sm rounded-full px-6 py-3 mb-4 border-3 border-brand-gold shadow-xl">
-                <span class="text-3xl animate-spin" style="animation-duration: 3s;">🌟</span>
-                <span class="text-xl max-[450px]:text-lg font-bold font-eczar text-brand-gold">ZERO RISK TESTING</span>
-                <span class="text-3xl animate-bounce">🚀</span>
+                class="inline-flex items-center gap-2 md:gap-3 bg-brand-gold-light backdrop-blur-sm rounded-full px-4 md:px-6 py-2 md:py-3 mb-4 border-3 border-brand-gold shadow-xl">
+                <span class="text-2xl md:text-3xl animate-spin" style="animation-duration: 3s;">🌟</span>
+                <span class="text-sm md:text-lg lg:text-xl font-bold font-eczar text-brand-gold">ZERO RISK
+                    TESTING</span>
+                <span class="text-2xl md:text-3xl animate-bounce">🚀</span>
             </div>
-            <h2 class="text-2xl max-[450px]:text-xl font-bold font-eczar text-white mb-2">
+            <h2 class="text-xl md:text-2xl lg:text-3xl font-bold font-eczar text-white mb-2">
                 NEW RETAILER? NO PROBLEM!
             </h2>
             <div
-                class="inline-flex items-center gap-2 bg-brand-gold px-4 py-2 rounded-full border-2 border-white shadow-lg">
+                class="inline-flex items-center gap-2 bg-brand-gold px-3 md:px-4 py-1 md:py-2 rounded-full border-2 border-white shadow-lg">
                 <span class="text-lg">🛡️</span>
-                <span class="text-sm max-[450px]:text-xs font-bold text-stone-purple">100% सुरक्षित तरीका</span>
+                <span class="text-lg md:text-base font-bold text-brand-gold-light">100% सुरक्षित तरीका</span>
             </div>
         </div>
 
         <!-- Journey Steps -->
-        <div class="space-y-6 max-[450px]:space-y-4 mb-8">
+        <div
+            class="space-y-4 md:space-y-6 mb-6 md:mb-8 grid grid-cols-3 max-[450px]:grid-cols-1 gap-6 max-[450px]:gap-4 auto-rows-fr">
 
             <!-- Step 1: Start -->
-            <div class="relative">
+            <div class="relative h-full">
                 <div
-                    class="flex items-start gap-4 bg-stone-purple bg-opacity-90 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:bg-opacity-100 transition-all duration-500 group">
+                    class="flex flex-col items-start gap-4 h-full bg-brand-gold-light bg-opacity-90 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:bg-opacity-100 transition-all duration-500 group">
                     <div
-                        class="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-xl font-black text-stone-purple group-hover:scale-110 transition-transform duration-300 border-2 border-white">
+                        class="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-xl font-black text-brand-gold-light group-hover:scale-110 transition-transform duration-300 border-2 border-white">
                         1
                     </div>
                     <div class="flex-1 pt-1">
                         <div class="flex items-center gap-2 mb-2">
-                            <h3 class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold">
+                            <h3 class="text-lg max-[450px]:text-xl font-bold font-eczar text-brand-gold">
                                 छोटी Quantity से शुरुआत
                             </h3>
                             <span class="text-2xl animate-bounce">📦</span>
                         </div>
-                        <p class="text-sm max-[450px]:text-xs text-white leading-relaxed font-medium">
+                        <p class="text-sm max-[450px]:text-base text-brand-primary leading-relaxed font-medium">
                             सिर्फ 10-50 packets order करें • कोई bulk commitment नहीं
                         </p>
                         <div class="mt-3 flex items-center gap-2">
                             <span
-                                class="text-xs bg-brand-gold text-stone-purple px-3 py-1 rounded-full font-bold border border-white">न्यूनतम
-                                ऑर्डर: ₹500</span>
+                                class="text-xs bg-brand-gold text-brand-gold-light px-3 py-1 rounded-full font-bold border border-white">छोटी
+                                Quantity</span>
                         </div>
                     </div>
                 </div>
                 <!-- Connecting line -->
-                <div class="absolute left-6 top-16 w-0.5 h-8 bg-brand-gold opacity-80 max-[450px]:h-6"></div>
+                <div class="absolute left-6 top-16 w-0.5 h-8 bg-brand-gold opacity-80 max-[450px]:h-6">
+                </div>
             </div>
 
             <!-- Step 2: Test -->
-            <div class="relative">
+            <div class="relative h-full">
                 <div
-                    class="flex items-start gap-4 bg-stone-emerald bg-opacity-90 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:bg-opacity-100 transition-all duration-500 group">
+                    class="flex flex-col items-start gap-4 h-full bg-stone-emerald bg-opacity-90 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:bg-opacity-100 transition-all duration-500 group">
                     <div
-                        class="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-xl font-black text-stone-purple group-hover:scale-110 transition-transform duration-300 border-2 border-white">
+                        class="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-xl font-black text-brand-gold-light group-hover:scale-110 transition-transform duration-300 border-2 border-white">
                         2
                     </div>
                     <div class="flex-1 pt-1">
                         <div class="flex items-center gap-2 mb-2">
-                            <h3 class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold">
+                            <h3 class="text-lg max-[450px]:text-xl font-bold font-eczar text-brand-gold">
                                 Complete Quality Testing
                             </h3>
                             <span class="text-2xl animate-pulse">🔍</span>
                         </div>
-                        <p class="text-sm max-[450px]:text-xs text-white leading-relaxed font-medium">
+                        <p class="text-sm max-[450px]:text-base text-white leading-relaxed font-medium">
                             Taste • Packaging • Freshness • Customer Response
                         </p>
                         <div class="mt-3 grid grid-cols-2 gap-2">
                             <span
-                                class="text-xs bg-brand-gold text-stone-purple px-2 py-1 rounded-full font-bold text-center border border-white">15
+                                class="text-xs bg-brand-gold text-brand-gold-light px-2 py-1 rounded-full font-bold text-center border border-white">15
                                 दिन टेस्ट</span>
                             <span
-                                class="text-xs bg-brand-gold text-stone-purple px-2 py-1 rounded-full font-bold text-center border border-white">Full
+                                class="text-xs bg-brand-gold text-brand-gold-light px-2 py-1 rounded-full font-bold text-center border border-white">Full
                                 Support</span>
                         </div>
                     </div>
                 </div>
                 <!-- Connecting line -->
-                <div class="absolute left-6 top-16 w-0.5 h-8 bg-brand-gold opacity-80 max-[450px]:h-6"></div>
+                <div class="absolute left-6 top-16 w-0.5 h-8 bg-brand-gold opacity-80 max-[450px]:h-6">
+                </div>
             </div>
 
             <!-- Step 3: Decide -->
-            <div class="relative">
+            <div class="relative h-full">
                 <div
-                    class="flex items-start gap-4 bg-stone-purple bg-opacity-90 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:bg-opacity-100 transition-all duration-500 group">
+                    class="flex flex-col items-start gap-4 h-full bg-brand-gold-light bg-opacity-90 backdrop-blur-sm rounded-2xl p-5 max-[450px]:p-4 border-3 border-brand-gold shadow-xl hover:bg-opacity-100 transition-all duration-500 group">
                     <div
-                        class="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-xl font-black text-stone-purple group-hover:scale-110 transition-transform duration-300 border-2 border-white">
+                        class="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-xl font-black text-brand-gold-light group-hover:scale-110 transition-transform duration-300 border-2 border-white">
                         3
                     </div>
                     <div class="flex-1 pt-1">
                         <div class="flex items-center gap-2 mb-2">
-                            <h3 class="text-lg max-[450px]:text-base font-bold font-eczar text-brand-gold">
+                            <h3 class="text-lg max-[450px]:text-xl font-bold font-eczar text-brand-gold">
                                 आपका फैसला, आपकी मर्जी
                             </h3>
                             <span class="text-2xl animate-bounce">💡</span>
                         </div>
-                        <p class="text-sm max-[450px]:text-xs text-white leading-relaxed font-medium">
+                        <p class="text-sm max-[450px]:text-base text-brand-primary leading-relaxed font-medium">
                             पसंद आए तो bulk order • नहीं तो कोई pressure नहीं
                         </p>
                         <div class="mt-3 flex flex-wrap gap-2">
                             <span
-                                class="text-xs bg-brand-gold text-stone-purple px-3 py-1 rounded-full font-bold border border-white">✓
+                                class="text-xs bg-brand-gold text-brand-gold-light px-3 py-1 rounded-full font-bold border border-white">✓
                                 आपकी Choice</span>
                             <span
-                                class="text-xs bg-brand-gold text-stone-purple px-3 py-1 rounded-full font-bold border border-white">✓
+                                class="text-xs bg-brand-gold text-brand-gold-light px-3 py-1 rounded-full font-bold border border-white">✓
                                 No Pressure</span>
                         </div>
                     </div>
@@ -1677,7 +1857,8 @@
                 class="text-center bg-stone-emerald bg-opacity-90 backdrop-blur-sm rounded-xl p-4 border-2 border-brand-gold shadow-lg">
                 <div class="flex items-center justify-center gap-2 mb-2">
                     <span class="text-lg">🤝</span>
-                    <span class="text-sm max-[450px]:text-xs font-bold text-brand-gold">DEDICATED SUPPORT TEAM</span>
+                    <span class="text-sm max-[450px]:text-xs font-bold text-brand-gold">DEDICATED SUPPORT
+                        TEAM</span>
                 </div>
                 <p class="text-xs max-[450px]:text-[10px] text-white leading-relaxed font-medium">
                     हर step में आपके साथ • Quality guidance • Business tips • Market insights
@@ -1687,7 +1868,7 @@
             <!-- Trust Badge -->
             <div class="flex justify-center">
                 <div
-                    class="inline-flex items-center gap-2 bg-stone-purple px-4 py-2 rounded-full border-3 border-brand-gold shadow-xl">
+                    class="inline-flex items-center gap-2 bg-brand-gold-light px-4 py-2 rounded-full border-3 border-brand-gold shadow-xl">
                     <span class="text-lg animate-pulse">🛡️</span>
                     <span class="text-sm font-bold text-brand-gold">100% व्यापारिक सुरक्षा</span>
                 </div>
@@ -1697,8 +1878,134 @@
     </div>
 </section>
 
+<html>
+
+<head>
+    <script>
+
+        function showThankYou(event) {
+            // Prevent default form submission
+            if (event) {
+                event.preventDefault();
+            }
+
+            // Process and fill form data
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+
+            // Validate form data
+            if (!name || !phone || phone.length < 10 || phone.length > 15) {
+                alert('कृपया सभी फील्ड सही ढंग से भरें!');
+                return false;
+            }
+
+            // Process the data (you can modify this part as needed)
+            const formData = {
+                customerName: name,
+                phoneNumber: phone,
+                timestamp: new Date().toLocaleString('hi-IN'),
+            };
+
+            // Fill/store the processed data (example: console log or local storage)
+            localStorage.setItem('customerOrder', JSON.stringify(formData));
+
+            // Navigate to ThankYou page
+            window.location.href = 'ThankYou.html';
+
+            return false; // Prevent form submission
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('thankYouModal');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+            document.getElementById('contactForm').reset();
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- Contact Section -->
+    <section class="bg-brand-primary text-white border-b-2 border-brand-light
+                    xs:p-4 md:p-6 lg:p-8
+                    lg:max-w-7xl lg:mx-auto" id="contact">
+
+        <!-- B2B CTA Section -->
+        <div class="bg-gradient-gold rounded-2xl md:rounded-3xl
+                        xs:p-6 md:p-8
+                        mb-6 border-3 border-brand-primary shadow-2xl relative overflow-hidden">
+            <!-- Background decorative elements -->
+            <div class="absolute top-4 right-4 text-4xl md:text-5xl opacity-10">🏢</div>
+            <div class="absolute bottom-4 left-4 text-4xl md:text-5xl opacity-10">💼</div>
+
+            <div class="relative z-10">
+                <!-- Headline -->
+                <h3 class="text-center text-xl md:text-2xl lg:text-3xl font-black font-eczar mb-3"
+                    style="color: var(--brand-primary);">
+                    क्या आप एक Retailer या Distributor हैं?
+                </h3>
+
+                <!-- Subheading -->
+                <p class="text-center text-base md:text-lg font-bold font-eczar mb-5"
+                    style="color: var(--brand-accent);">
+                    आज ही wholesale rates और bulk supply details के लिए संपर्क करें।
+                </p>
+
+                <!-- Badge -->
+                <div class="flex justify-center mb-5">
+                    <div
+                        class="inline-flex items-center gap-2 bg-brand-primary text-white px-4 md:px-6 py-2 rounded-full border-2 border-brand-accent shadow-lg">
+                        <span class="text-lg md:text-xl">👉</span>
+                        <span class="font-black text-sm md:text-base">Bulk Orders Only</span>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="flex justify-center">
+                    <button onclick="scrollToContent()"
+                        class="inline-flex items-center gap-3 bg-brand-primary text-white font-black px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl text-base md:text-lg shadow-xl transform hover:scale-105 transition-all duration-300 border-3 border-brand-accent font-eczar hover:shadow-2xl">
+                        <span class="text-xl md:text-2xl">🔘</span>
+                        <span>Contact for B2B Enquiry</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div
+            class="xs:p-6 md:p-8 lg:p-12 bg-brand-primary/80 rounded-2xl md:rounded-3xl lg:rounded-4xl border-2 border-brand-gold">
+            <form id="contactForm" onsubmit="return showThankYou(event)">
+                <div class="mb-4 md:mb-5 lg:mb-6">
+                    <label for="name"
+                        class="block mb-2 text-xl md:text-2xl lg:text-3xl text-white font-eczar font-semibold">आपका
+                        नाम:</label>
+                    <input type="text" id="name" name="name" required placeholder="अपना नाम लिखें"
+                        class="w-full p-3 md:p-4 lg:p-5 border-none rounded text-base md:text-lg lg:text-xl font-bold text-brand-primary placeholder-brand-muted font-eczar bg-brand-light">
+                </div>
+                <div class="mb-4 md:mb-5 lg:mb-6 max-[450px]:mb-3">
+                    <label for="phone"
+                        class="block mb-2 text-xl md:text-2xl lg:text-3xl text-white font-eczar font-semibold">फोन
+                        नंबर:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="अपना फोन नंबर लिखें"
+                        class="w-full p-3 md:p-4 lg:p-5 border-none rounded text-base md:text-lg lg:text-xl font-bold text-brand-primary placeholder-brand-muted font-eczar bg-brand-light">
+                </div>
+                <button type="submit"
+                    class="w-full bg-brand-light text-brand-primary font-bold border-none py-3 md:py-4 lg:py-5 rounded-xl md:rounded-2xl lg:rounded-3xl text-lg md:text-2xl lg:text-3xl font-eczar cursor-pointer transition-all duration-300 hover:bg-opacity-90">
+                    <span>✨</span>
+                    अभी ऑर्डर करें
+                    <span>✨</span>
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
+
 <!-- TRUST STATEMENT SECTION -->
-<section class="max-w-md mx-auto bg-brand-primary p-4">
+<section class="xs:max-w-[450px] mx-auto bg-brand-primary p-4 mx-4 ">
     <!-- Header -->
     <div class="text-center mb-2">
         <h2 class="text-3xl font-bold font-eczar mb-4" style="color: var(--brand-light);">
@@ -1713,29 +2020,32 @@
     </div>
 
     <!-- Client Testimonials -->
-    <div class="space-y-6">
+    <div class="space-y-6 grid grid-cols-3 gap-4  max-[450px]:grid-cols-1 md:auto-rows-fr">
         <!-- Client 1 -->
         <div
-            class="bg-white rounded-2xl border-2 border-brand-muted p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-            <div class="flex items-start gap-4">
+            class="bg-white rounded-2xl border-2 border-brand-muted p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col xs:flex-row">
+            <div class="flex items-start gap-4 md:flex-1 lg:flex-1 md:flex-col xs:flex-row">
                 <!-- Client Image -->
                 <div class="flex-shrink-0">
-                    <img src="./Image/client1.png" alt="Client 1" class="w-16 h-16 rounded-full object-cover border-2"
+                    <img src="./Image/Client1.png" alt="Client 1" class="w-16 h-16 rounded-full object-cover border-2"
                         style="border-color: var(--brand-primary); box-shadow: 0 4px 12px rgba(198, 40, 40, 0.2);">
                 </div>
                 <!-- Content -->
                 <div class="flex-1">
                     <div class="flex items-center justify-between mb-2">
                         <div>
-                            <h3 class="font-bold text-lg" style="color: var(--brand-primary);">Rajesh Kumar</h3>
-                            <p class="text-xs" style="color: var(--brand-accent); opacity: 0.7;">⭐⭐⭐⭐⭐ 5.0</p>
+                            <h3 class="font-bold text-lg" style="color: var(--brand-primary);">Rajesh Kumar
+                            </h3>
+                            <p class="text-xs" style="color: var(--brand-accent); opacity: 0.7;">⭐⭐⭐⭐⭐ 5.0
+                            </p>
                         </div>
                     </div>
                     <p class="text-xs font-semibold mb-2" style="color: var(--brand-accent);">
                         📍 Jaipur, Rajasthan | Age: 38
                     </p>
                     <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                        "Jeera Papad की quality हमेशा consistent रहती है। मेरे customers को बहुत पसंद आता है। 2 साल से
+                        "Jeera Papad की quality हमेशा consistent रहती है। मेरे customers को बहुत पसंद आता
+                        है। 2 साल से
                         काम कर रहा हूँ और कभी roast नहीं की। <b>दाम भी fair रहते हैं।</b>"
                     </p>
                 </div>
@@ -1744,26 +2054,29 @@
 
         <!-- Client 2 -->
         <div
-            class="bg-white rounded-2xl border-2 border-brand-muted p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-            <div class="flex items-start gap-4">
+            class="bg-white rounded-2xl border-2 border-brand-muted p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col xs:flex-row">
+            <div class="flex items-start gap-4 md:flex-1 lg:flex-1 md:flex-col xs:flex-row">
                 <!-- Client Image -->
                 <div class="flex-shrink-0">
-                    <img src="./Image/client2.png" alt="Client 2" class="w-16 h-16 rounded-full object-cover border-2"
+                    <img src="./Image/Client2.png" alt="Client 2" class="w-16 h-16 rounded-full object-cover border-2"
                         style="border-color: var(--brand-primary); box-shadow: 0 4px 12px rgba(198, 40, 40, 0.2);">
                 </div>
                 <!-- Content -->
                 <div class="flex-1">
                     <div class="flex items-center justify-between mb-2">
                         <div>
-                            <h3 class="font-bold text-lg" style="color: var(--brand-primary);">Priya Sharma</h3>
-                            <p class="text-xs" style="color: var(--brand-accent); opacity: 0.7;">⭐⭐⭐⭐⭐ 5.0</p>
+                            <h3 class="font-bold text-lg" style="color: var(--brand-primary);">Priya Sharma
+                            </h3>
+                            <p class="text-xs" style="color: var(--brand-accent); opacity: 0.7;">⭐⭐⭐⭐⭐ 5.0
+                            </p>
                         </div>
                     </div>
                     <p class="text-xs font-semibold mb-2" style="color: var(--brand-accent);">
                         📍 Ahmedabad, Gujarat | Age: 35
                     </p>
                     <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                        "Wholesale rates बहुत अच्छे हैं। Bulk orders पर तुरंत delivery मिल जाती है। <b>Owner से सीधा
+                        "Wholesale rates बहुत अच्छे हैं। Bulk orders पर तुरंत delivery मिल जाती है। <b>Owner
+                            से सीधा
                             deal करता हूँ,</b> बहुत professional टीम है। खूब recommend करता हूँ।"
                     </p>
                 </div>
@@ -1772,26 +2085,29 @@
 
         <!-- Client 3 -->
         <div
-            class="bg-white rounded-2xl border-2 border-brand-muted p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-            <div class="flex items-start gap-4">
+            class="bg-white rounded-2xl border-2 border-brand-muted p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col xs:flex-row">
+            <div class="flex items-start gap-4 md:flex-1 lg:flex-1 md:flex-col xs:flex-row">
                 <!-- Client Image -->
                 <div class="flex-shrink-0">
-                    <img src="./Image/client3.png" alt="Client 3" class="w-16 h-16 rounded-full object-cover border-2"
+                    <img src="./Image/Client3.png" alt="Client 3" class="w-16 h-16 rounded-full object-cover border-2"
                         style="border-color: var(--brand-primary); box-shadow: 0 4px 12px rgba(198, 40, 40, 0.2);">
                 </div>
                 <!-- Content -->
                 <div class="flex-1">
                     <div class="flex items-center justify-between mb-2">
                         <div>
-                            <h3 class="font-bold text-lg" style="color: var(--brand-primary);">Vikram Patel</h3>
-                            <p class="text-xs" style="color: var(--brand-accent); opacity: 0.7;">⭐⭐⭐⭐⭐ 5.0</p>
+                            <h3 class="font-bold text-lg" style="color: var(--brand-primary);">Vikram Patel
+                            </h3>
+                            <p class="text-xs" style="color: var(--brand-accent); opacity: 0.7;">⭐⭐⭐⭐⭐ 5.0
+                            </p>
                         </div>
                     </div>
                     <p class="text-xs font-semibold mb-2" style="color: var(--brand-accent);">
                         📍 Indore, Madhya Pradesh | Age: 42
                     </p>
                     <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                        "मैं 5+ साल से Jeera Papad sell कर रहा हूँ। <b>Taste और quality में कभी बदलाव नहीं आया।</b> यह
+                        "मैं 5+ साल से Jeera Papad sell कर रहा हूँ। <b>Taste और quality में कभी बदलाव नहीं
+                            आया।</b> यह
                         trust ही मेरा business बढ़ने का reason है। Best supplier!"
                     </p>
                 </div>
@@ -1804,29 +2120,29 @@
         <p class="text-sm font-bold" style="color: var(--brand-light); margin-bottom: 12px;">
             अब आप भी हमारे सफल retailers में शामिल हों!
         </p>
-        <a href="tel:+919876543210"
-            class="inline-flex items-center justify-center gap-2 bg-gradient-herbal text-white font-bold px-8 py-3 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 border-2 border-white font-eczar">
+        <div class="inline-flex items-center justify-center gap-2 bg-gradient-herbal text-white font-bold px-8 py-3 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 border-2 border-white font-eczar"
+            onclick="scrollToContact()">
             <span class="text-xl">🛒</span>
             <span>आज ही शुरू करें</span>
-        </a>
+        </div>
     </div>
 </section>
 
 <!-- FAQ Section (B2B Only) - Enhanced -->
-<section class="max-w-md mx-auto p-4">
+<section class="xs:max-w-[450px] mx-auto p-4 mx-4 mt-4">
     <!-- Header -->
     <div class="text-center mb-2">
         <h2 class="faq-section-title text-3xl font-bold font-eczar mb-4"
             style="color: var(--brand-primary); display: block;">
             Frequently Asked Questions
         </h2>
-        <p class="text-sm mt-3 font-medium" style="color: var(--brand-accent); letter-spacing: 0.5px;">
-            <span class="inline-flex items-center gap-2 text-xs font-bold px-3 py-1 rounded-full"
+        <p class="text-lg mt-3 font-medium" style="color: var(--brand-accent); letter-spacing: 0.5px;">
+            <span class="inline-flex items-center gap-2 text-lg font-bold px-3 py-1 rounded-full"
                 style="background: linear-gradient(135deg, rgba(198, 40, 40, 0.1) 0%, rgba(211, 47, 47, 0.05) 100%); color: var(--brand-primary); border: 1px solid var(--brand-muted);">
                 👔 B2B Only
             </span>
         </p>
-        <p class="text-xs mt-3" style="color: var(--brand-accent); opacity: 0.8;">
+        <p class="text-base mt-3" style="color: var(--brand-accent); opacity: 0.8;">
             केवल Retailers • Wholesalers • Business Buyers के लिए
         </p>
     </div>
@@ -1840,12 +2156,13 @@
             <summary
                 class="faq-summary flex items-center justify-between cursor-pointer p-4 font-semibold select-none hover:bg-gray-50"
                 style="color: var(--brand-primary);">
-                <span class="flex-1 text-sm sm:text-base">क्या आप retail customers को बेचते हैं?</span>
+                <span class="flex-1 text-xl sm:text-base">क्या आप retail customers को बेचते हैं?</span>
                 <span class="faq-icon ml-3 text-xl flex-shrink-0">⌄</span>
             </summary>
             <div class="faq-content px-4 pb-4">
                 <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                    नहीं, हम केवल <b class="text-stone-emerald">retailers, wholesalers और business buyers</b> को सप्लाई
+                    नहीं, हम केवल <b class="text-stone-emerald">retailers, wholesalers और business
+                        buyers</b> को सप्लाई
                     करते हैं। यह हमारी B2B मॉडल का मुख्य भाग है।
                 </p>
             </div>
@@ -1858,12 +2175,13 @@
             <summary
                 class="faq-summary flex items-center justify-between cursor-pointer p-4 font-semibold select-none hover:bg-gray-50"
                 style="color: var(--brand-primary);">
-                <span class="flex-1 text-sm sm:text-base">Minimum Order Quantity (MOQ) क्या है?</span>
+                <span class="flex-1 text-xl sm:text-xl">Minimum Order Quantity (MOQ) क्या है?</span>
                 <span class="faq-icon ml-3 text-xl flex-shrink-0">⌄</span>
             </summary>
             <div class="faq-content px-4 pb-4">
                 <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                    MOQ <b class="text-stone-emerald">quantity और location</b> पर depend करता है। विस्तृत जानकारी के लिए
+                    MOQ <b class="text-stone-emerald">quantity और location</b> पर depend करता है। विस्तृत
+                    जानकारी के लिए
                     कृपया <b>enquiry करें</b> — हमारी टीम तुरंत आपसे संपर्क करेगी।
                 </p>
             </div>
@@ -1876,12 +2194,13 @@
             <summary
                 class="faq-summary flex items-center justify-between cursor-pointer p-4 font-semibold select-none hover:bg-gray-50"
                 style="color: var(--brand-primary);">
-                <span class="flex-1 text-sm sm:text-base">क्या private label / branding possible है?</span>
+                <span class="flex-1 text-xl sm:text-xl">क्या private label / branding possible है?</span>
                 <span class="faq-icon ml-3 text-xl flex-shrink-0">⌄</span>
             </summary>
             <div class="faq-content px-4 pb-4">
                 <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                    हाँ, <b class="text-stone-emerald">large bulk orders</b> पर private labeling और branding की सुविधा
+                    हाँ, <b class="text-stone-emerald">large bulk orders</b> पर private labeling और branding
+                    की सुविधा
                     उपलब्ध है। विशेष डिज़ाइन के लिए हमसे सीधे बात करें।
                 </p>
             </div>
@@ -1894,12 +2213,13 @@
             <summary
                 class="faq-summary flex items-center justify-between cursor-pointer p-4 font-semibold select-none hover:bg-gray-50"
                 style="color: var(--brand-primary);">
-                <span class="flex-1 text-sm sm:text-base">Delivery में कितना समय लगता है?</span>
+                <span class="flex-1 text-xl sm:text-xl">Delivery में कितना समय लगता है?</span>
                 <span class="faq-icon ml-3 text-xl flex-shrink-0">⌄</span>
             </summary>
             <div class="faq-content px-4 pb-4">
                 <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                    आमतौर पर <b class="text-stone-emerald">3–7 working days</b> का समय लगता है। यह आपके delivery
+                    आमतौर पर <b class="text-stone-emerald">3–7 working days</b> का समय लगता है। यह आपके
+                    delivery
                     location और order size पर निर्भर करता है।
                 </p>
             </div>
@@ -1912,12 +2232,13 @@
             <summary
                 class="faq-summary flex items-center justify-between cursor-pointer p-4 font-semibold select-none hover:bg-gray-50"
                 style="color: var(--brand-primary);">
-                <span class="flex-1 text-sm sm:text-base">Payment Terms क्या हैं?</span>
+                <span class="flex-1 text-xl sm:text-xl">Payment Terms क्या हैं?</span>
                 <span class="faq-icon ml-3 text-xl flex-shrink-0">⌄</span>
             </summary>
             <div class="faq-content px-4 pb-4">
                 <p class="text-sm leading-relaxed" style="color: var(--brand-accent);">
-                    हम flexible payment options प्रदान करते हैं — <b class="text-stone-emerald">advance, COD, और credit
+                    हम flexible payment options प्रदान करते हैं — <b class="text-stone-emerald">advance,
+                        COD, और credit
                         terms</b> उपलब्ध हैं। विवरण के लिए संपर्क करें।
                 </p>
             </div>
